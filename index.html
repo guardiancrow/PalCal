@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>パルワールド 個体値計算機</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href="https://code.jquery.com/ui/1.13.2/themes/cupertino/jquery-ui.css" rel="stylesheet">
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.3.1/math.js" integrity="sha512-mkyX3MP9YkmerSred0H8BOzwstD2tWIecfMKdTZBW4k/oUNbJQgau0GTl+vFoh8a5Fd13GXG1OXmW+TDiNq8qQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!--
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js" integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        -->
+
+        <script src="./js/main.js"></script>
+        <div class="container">
+            <h1>パルワールド 個体値計算機</h1>
+            <br>
+            <div class="row">
+                <div class="col-sm-12">
+                    <hr><br>
+                    <div class="row">
+                        <div class="col-sm-3 form-group">
+                            <label>Name</label>
+                            <input type="text" id="name" name="name" class="form-control hidden-xs" value="コモップ" required/>
+                            <select id="select-name" class="form-control hidden-sm hidden-md hidden-lg"></select>
+                        </div>
+                        <div class="col-sm-3 form-group">
+                            <label>Level</label>
+                            <input type="number" name="lv" class="form-control" value="10" required/>
+                        </div>
+                        <div class="col-sm-2 form-group">
+                            <label>HP</label>
+                            <input type="number" name="hp" class="form-control" value="939" required/>
+                        </div>
+                        <div class="col-sm-2 form-group">
+                            <label>攻撃</label>
+                            <input type="number" name="atk" class="form-control" value="152" required/>
+                        </div>
+                        <div class="col-sm-2 form-group">
+                            <label>防御</label>
+                            <input type="number" name="def" class="form-control" value="107" required/>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="row">
+                        <div class="col-sm-3 form-group">
+                            <label>Condenser</label>
+                            <input type="number" name="condenser" class="form-control" value="0" disabled/>
+                        </div>
+                        <div class="col-sm-3 form-group">
+                            <label>HP soul</label>
+                            <input type="number" name="hp_soul" class="form-control" value="0" disabled/>
+                        </div>
+                        <div class="col-sm-3 form-group">
+                            <label>Attack soul</label>
+                            <input type="number" name="atk_soul" class="form-control" value="0" disabled/>
+                        </div>
+                        <div class="col-sm-3 form-group">
+                            <label>Defense soul</label>
+                            <input type="number" name="def_soul" class="form-control" value="0" disabled/>
+                        </div>
+                    </div>
+                    -->
+
+                    <div class="row">
+                        <div class="col-sm-4 form-group">
+                        </div>
+                        <div class="col-sm-4 form-group">
+                        </div>
+                        <div class="col-sm-4 btn-group">
+                            <input type="button" class="col-sm-12 btn btn-success btn-sm" value="計算" id="calcIV"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div id="potential"></div>
+                </div>
+                <div class="col-sm-12">
+                    <div id="total"></div>
+                </div>
+                <!--
+                <div class="col-sm-12">
+                    <div id="hpstackedchart"><canvas id="hp-chart-canvas"></div>
+                </div>
+                <div class="col-sm-12">
+                    <div id="atkstackedchart"><canvas id="atk-chart-canvas"></div>
+                </div>
+                <div class="col-sm-12">
+                    <div id="defstackedchart"><canvas id="def-chart-canvas"></div>
+                </div>
+                -->
+            </div>
+            <hr>
+            <p class="small text-right text-muted">現在、凸をしたものやソウルボーナスを得たものの計算は対応しておりません</p>
+            <p class="small text-right text-muted">パッシブスキルで値が増減している場合は詳細画面からわかる元の値を入力してください</p>
+            <hr>
+            <footer>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div><p class="small text-center">参照元：<a href="https://www.reddit.com/r/Palworld/comments/1afyau4/pal_stat_mechanics_hidden_ivs_levelup_stats_and/">r/Palworld : Pal Stat Mechanics: Hidden IVs, Level-Up Stats, and IV/Stat Calculator. </a></p></div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,1520 @@
+[
+  {
+    "name": "モコロン",
+    "name_en": "Lamball",
+    "no": 1,
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "ツッパニャン",
+    "name_en": "Cattiva",
+    "no": 2,
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "タマコッコ",
+    "name_en": "Chikipi",
+    "no": 3,
+    "stats": {
+      "attack": 60,
+      "defense": 60,
+      "hp": 60
+    },
+    "sub": ""
+  },
+  {
+    "name": "クルリス",
+    "name_en": "Lifmunk",
+    "no": 4,
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 75
+    },
+    "sub": ""
+  },
+  {
+    "name": "キツネビ",
+    "name_en": "Foxparks",
+    "no": 5,
+    "stats": {
+      "attack": 75,
+      "defense": 70,
+      "hp": 65
+    },
+    "sub": ""
+  },
+  {
+    "name": "カモノスケ",
+    "name_en": "Fuack",
+    "no": 6,
+    "stats": {
+      "attack": 80,
+      "defense": 60,
+      "hp": 60
+    },
+    "sub": ""
+  },
+  {
+    "name": "ボルトラ",
+    "name_en": "Sparkit",
+    "no": 7,
+    "stats": {
+      "attack": 75,
+      "defense": 70,
+      "hp": 60
+    },
+    "sub": ""
+  },
+  {
+    "name": "エテッパ",
+    "name_en": "Tanzee",
+    "no": 8,
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 80
+    },
+    "sub": ""
+  },
+  {
+    "name": "ヒノコジカ",
+    "name_en": "Rooby",
+    "no": 9,
+    "stats": {
+      "attack": 70,
+      "defense": 75,
+      "hp": 75
+    },
+    "sub": ""
+  },
+  {
+    "name": "ペンタマ",
+    "name_en": "Pengullet",
+    "no": 10,
+    "stats": {
+      "attack": 75,
+      "defense": 70,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "キャプペン",
+    "name_en": "Penking",
+    "no": 11,
+    "stats": {
+      "attack": 95,
+      "defense": 95,
+      "hp": 95
+    },
+    "sub": ""
+  },
+  {
+    "name": "パチグリ",
+    "name_en": "Jolthog",
+    "no": 12,
+    "stats": {
+      "attack": 75,
+      "defense": 70,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "コチグリ",
+    "name_en": "Jolthog Cryst",
+    "no": 12,
+    "stats": {
+      "attack": 75,
+      "defense": 80,
+      "hp": 70
+    },
+    "sub": "B"
+  },
+  {
+    "name": "ナエモチ",
+    "name_en": "Gumoss",
+    "no": 13,
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "ナエモチ(特殊)",
+    "name_en": "Gumoss (Special)",
+    "no": 13,
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 70
+    },
+    "sub": "B"
+  },
+  {
+    "name": "タマモ",
+    "name_en": "Vixy",
+    "no": 14,
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "ホウロック",
+    "name_en": "Hoocrates",
+    "no": 15,
+    "stats": {
+      "attack": 70,
+      "defense": 80,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "チョロゾウ",
+    "name_en": "Teafant",
+    "no": 16,
+    "stats": {
+      "attack": 60,
+      "defense": 70,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "ンダコアラ",
+    "name_en": "Depresso",
+    "no": 17,
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "ミルフィー",
+    "name_en": "Cremis",
+    "no": 18,
+    "stats": {
+      "attack": 70,
+      "defense": 75,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "ネムラム",
+    "name_en": "Daedream",
+    "no": 19,
+    "stats": {
+      "attack": 75,
+      "defense": 60,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "イノボウ",
+    "name_en": "Rushoar",
+    "no": 20,
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 80
+    },
+    "sub": ""
+  },
+  {
+    "name": "ルナティ",
+    "name_en": "Nox",
+    "no": 21,
+    "stats": {
+      "attack": 85,
+      "defense": 70,
+      "hp": 75
+    },
+    "sub": ""
+  },
+  {
+    "name": "モグルン",
+    "name_en": "Fuddler",
+    "no": 22,
+    "stats": {
+      "attack": 80,
+      "defense": 50,
+      "hp": 65
+    },
+    "sub": ""
+  },
+  {
+    "name": "ヤミイカ",
+    "name_en": "Killamari",
+    "no": 23,
+    "stats": {
+      "attack": 60,
+      "defense": 70,
+      "hp": 60
+    },
+    "sub": ""
+  },
+  {
+    "name": "ニャオテト",
+    "name_en": "Mau",
+    "no": 24,
+    "stats": {
+      "attack": 60,
+      "defense": 70,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "チルテト",
+    "name_en": "Mau Cryst",
+    "no": 24,
+    "stats": {
+      "attack": 65,
+      "defense": 70,
+      "hp": 70
+    },
+    "sub": "B"
+  },
+  {
+    "name": "ルミカイト",
+    "name_en": "Celaray",
+    "no": 25,
+    "stats": {
+      "attack": 70,
+      "defense": 80,
+      "hp": 80
+    },
+    "sub": ""
+  },
+  {
+    "name": "ガウルフ",
+    "name_en": "Direhowl",
+    "no": 26,
+    "stats": {
+      "attack": 90,
+      "defense": 75,
+      "hp": 80
+    },
+    "sub": ""
+  },
+  {
+    "name": "クルットリ",
+    "name_en": "Tocotoco",
+    "no": 27,
+    "stats": {
+      "attack": 75,
+      "defense": 70,
+      "hp": 60
+    },
+    "sub": ""
+  },
+  {
+    "name": "ポプリーナ",
+    "name_en": "Flopie",
+    "no": 28,
+    "stats": {
+      "attack": 65,
+      "defense": 70,
+      "hp": 75
+    },
+    "sub": ""
+  },
+  {
+    "name": "ミルカルビ",
+    "name_en": "Mozzarina",
+    "no": 29,
+    "stats": {
+      "attack": 50,
+      "defense": 80,
+      "hp": 90
+    },
+    "sub": ""
+  },
+  {
+    "name": "イバラヒメ",
+    "name_en": "Bristla",
+    "no": 30,
+    "stats": {
+      "attack": 80,
+      "defense": 80,
+      "hp": 80
+    },
+    "sub": ""
+  },
+  {
+    "name": "シャーキッド",
+    "name_en": "Gobfin",
+    "no": 31,
+    "stats": {
+      "attack": 90,
+      "defense": 75,
+      "hp": 90
+    },
+    "sub": ""
+  },
+  {
+    "name": "シャーマンダー",
+    "name_en": "Gobfin Ignis",
+    "no": 31,
+    "stats": {
+      "attack": 90,
+      "defense": 75,
+      "hp": 90
+    },
+    "sub": "B"
+  },
+  {
+    "name": "シメナワ",
+    "name_en": "Hangyu",
+    "no": 32,
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 80
+    },
+    "sub": ""
+  },
+  {
+    "name": "オバケナワ",
+    "name_en": "Hangyu Cryst",
+    "no": 32,
+    "stats": {
+      "attack": 80,
+      "defense": 70,
+      "hp": 80
+    },
+    "sub": "B"
+  },
+  {
+    "name": "ササゾー",
+    "name_en": "Mossanda",
+    "no": 33,
+    "stats": {
+      "attack": 90,
+      "defense": 90,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "ライゾー",
+    "name_en": "Mossanda Lux",
+    "no": 33,
+    "stats": {
+      "attack": 100,
+      "defense": 100,
+      "hp": 100
+    },
+    "sub": "B"
+  },
+  {
+    "name": "メリポップ",
+    "name_en": "Woolipop",
+    "no": 34,
+    "stats": {
+      "attack": 70,
+      "defense": 90,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "ベリゴート",
+    "name_en": "Caprity",
+    "no": 35,
+    "stats": {
+      "attack": 70,
+      "defense": 90,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "メルパカ",
+    "name_en": "Melpaca",
+    "no": 36,
+    "stats": {
+      "attack": 75,
+      "defense": 90,
+      "hp": 90
+    },
+    "sub": ""
+  },
+  {
+    "name": "ツノガミ",
+    "name_en": "Eikthyrdeer",
+    "no": 37,
+    "stats": {
+      "attack": 80,
+      "defense": 80,
+      "hp": 95
+    },
+    "sub": ""
+  },
+  {
+    "name": "ヤマガミ",
+    "name_en": "Eikthyrdeer Terra",
+    "no": 37,
+    "stats": {
+      "attack": 80,
+      "defense": 80,
+      "hp": 95
+    },
+    "sub": "B"
+  },
+  {
+    "name": "ホークウィン",
+    "name_en": "Nitewing",
+    "no": 38,
+    "stats": {
+      "attack": 95,
+      "defense": 80,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "ヒメウサ",
+    "name_en": "Ribunny",
+    "no": 39,
+    "stats": {
+      "attack": 65,
+      "defense": 70,
+      "hp": 75
+    },
+    "sub": ""
+  },
+  {
+    "name": "ヘルゴート",
+    "name_en": "Incineram",
+    "no": 40,
+    "stats": {
+      "attack": 100,
+      "defense": 85,
+      "hp": 95
+    },
+    "sub": ""
+  },
+  {
+    "name": "アビスゴート",
+    "name_en": "Incineram Noct",
+    "no": 40,
+    "stats": {
+      "attack": 105,
+      "defense": 85,
+      "hp": 95
+    },
+    "sub": "B"
+  },
+  {
+    "name": "パピテフ",
+    "name_en": "Cinnamoth",
+    "no": 41,
+    "stats": {
+      "attack": 80,
+      "defense": 80,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "ブルフェルノ",
+    "name_en": "Arsox",
+    "no": 42,
+    "stats": {
+      "attack": 95,
+      "defense": 95,
+      "hp": 85
+    },
+    "sub": ""
+  },
+  {
+    "name": "トドドドン",
+    "name_en": "Dumud",
+    "no": 43,
+    "stats": {
+      "attack": 70,
+      "defense": 95,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "マスクロウ",
+    "name_en": "Cawgnito",
+    "no": 44,
+    "stats": {
+      "attack": 95,
+      "defense": 80,
+      "hp": 75
+    },
+    "sub": ""
+  },
+  {
+    "name": "ダリザード",
+    "name_en": "Leezpunk",
+    "no": 45,
+    "stats": {
+      "attack": 80,
+      "defense": 50,
+      "hp": 80
+    },
+    "sub": ""
+  },
+  {
+    "name": "チリザード",
+    "name_en": "Leezpunk Ignis",
+    "no": 45,
+    "stats": {
+      "attack": 80,
+      "defense": 50,
+      "hp": 80
+    },
+    "sub": "B"
+  },
+  {
+    "name": "ツキカゲ",
+    "name_en": "Loupmoon",
+    "no": 46,
+    "stats": {
+      "attack": 100,
+      "defense": 80,
+      "hp": 80
+    },
+    "sub": ""
+  },
+  {
+    "name": "エアムルグ",
+    "name_en": "Galeclaw",
+    "no": 47,
+    "stats": {
+      "attack": 85,
+      "defense": 60,
+      "hp": 75
+    },
+    "sub": ""
+  },
+  {
+    "name": "フェザーロ",
+    "name_en": "Robinquill",
+    "no": 48,
+    "stats": {
+      "attack": 105,
+      "defense": 80,
+      "hp": 90
+    },
+    "sub": ""
+  },
+  {
+    "name": "サンドロ",
+    "name_en": "Robinquill Terra",
+    "no": 48,
+    "stats": {
+      "attack": 105,
+      "defense": 80,
+      "hp": 90
+    },
+    "sub": "B"
+  },
+  {
+    "name": "ゴリレイジ",
+    "name_en": "Gorirat",
+    "no": 49,
+    "stats": {
+      "attack": 95,
+      "defense": 90,
+      "hp": 90
+    },
+    "sub": ""
+  },
+  {
+    "name": "ビーナイト",
+    "name_en": "Beegarde",
+    "no": 50,
+    "stats": {
+      "attack": 90,
+      "defense": 90,
+      "hp": 80
+    },
+    "sub": ""
+  },
+  {
+    "name": "クインビーナ",
+    "name_en": "Elizabee",
+    "no": 51,
+    "stats": {
+      "attack": 105,
+      "defense": 100,
+      "hp": 90
+    },
+    "sub": ""
+  },
+  {
+    "name": "ニャンギマリ",
+    "name_en": "Grintale",
+    "no": 52,
+    "stats": {
+      "attack": 80,
+      "defense": 80,
+      "hp": 110
+    },
+    "sub": ""
+  },
+  {
+    "name": "コモップ",
+    "name_en": "Swee",
+    "no": 53,
+    "stats": {
+      "attack": 60,
+      "defense": 60,
+      "hp": 60
+    },
+    "sub": ""
+  },
+  {
+    "name": "ドンモップ",
+    "name_en": "Sweepa",
+    "no": 54,
+    "stats": {
+      "attack": 90,
+      "defense": 90,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "オコチョ",
+    "name_en": "Chillet",
+    "no": 55,
+    "stats": {
+      "attack": 80,
+      "defense": 80,
+      "hp": 90
+    },
+    "sub": ""
+  },
+  {
+    "name": "ライコーン",
+    "name_en": "Univolt",
+    "no": 56,
+    "stats": {
+      "attack": 105,
+      "defense": 105,
+      "hp": 80
+    },
+    "sub": ""
+  },
+  {
+    "name": "フブキツネ",
+    "name_en": "Foxcicle",
+    "no": 57,
+    "stats": {
+      "attack": 95,
+      "defense": 105,
+      "hp": 90
+    },
+    "sub": ""
+  },
+  {
+    "name": "サラブレイズ",
+    "name_en": "Pyrin",
+    "no": 58,
+    "stats": {
+      "attack": 95,
+      "defense": 90,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "サラブラック",
+    "name_en": "Pyrin Noct",
+    "no": 58,
+    "stats": {
+      "attack": 95,
+      "defense": 90,
+      "hp": 100
+    },
+    "sub": "B"
+  },
+  {
+    "name": "ツララジカ",
+    "name_en": "Reindrix",
+    "no": 59,
+    "stats": {
+      "attack": 85,
+      "defense": 110,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "イヌズマ",
+    "name_en": "Rayhound",
+    "no": 60,
+    "stats": {
+      "attack": 100,
+      "defense": 80,
+      "hp": 90
+    },
+    "sub": ""
+  },
+  {
+    "name": "シラヌイ",
+    "name_en": "Kitsun",
+    "no": 61,
+    "stats": {
+      "attack": 115,
+      "defense": 100,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "カミナラシ",
+    "name_en": "Dazzi",
+    "no": 62,
+    "stats": {
+      "attack": 80,
+      "defense": 70,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "ミステリア",
+    "name_en": "Lunaris",
+    "no": 63,
+    "stats": {
+      "attack": 100,
+      "defense": 90,
+      "hp": 90
+    },
+    "sub": ""
+  },
+  {
+    "name": "アロアリュー",
+    "name_en": "Dinossom",
+    "no": 64,
+    "stats": {
+      "attack": 85,
+      "defense": 90,
+      "hp": 110
+    },
+    "sub": ""
+  },
+  {
+    "name": "ビリビリリュー",
+    "name_en": "Dinossom Lux",
+    "no": 64,
+    "stats": {
+      "attack": 90,
+      "defense": 90,
+      "hp": 110
+    },
+    "sub": "B"
+  },
+  {
+    "name": "シーペント",
+    "name_en": "Surfent",
+    "no": 65,
+    "stats": {
+      "attack": 90,
+      "defense": 80,
+      "hp": 90
+    },
+    "sub": ""
+  },
+  {
+    "name": "スナペント",
+    "name_en": "Surfent Terra",
+    "no": 65,
+    "stats": {
+      "attack": 90,
+      "defense": 100,
+      "hp": 90
+    },
+    "sub": "B"
+  },
+  {
+    "name": "ソルレイス",
+    "name_en": "Maraith",
+    "no": 66,
+    "stats": {
+      "attack": 105,
+      "defense": 80,
+      "hp": 75
+    },
+    "sub": ""
+  },
+  {
+    "name": "ドリタス",
+    "name_en": "Digtoise",
+    "no": 67,
+    "stats": {
+      "attack": 95,
+      "defense": 120,
+      "hp": 80
+    },
+    "sub": ""
+  },
+  {
+    "name": "ニャンバット",
+    "name_en": "Tombat",
+    "no": 68,
+    "stats": {
+      "attack": 95,
+      "defense": 80,
+      "hp": 95
+    },
+    "sub": ""
+  },
+  {
+    "name": "ラブマンダー",
+    "name_en": "Lovander",
+    "no": 69,
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 120
+    },
+    "sub": ""
+  },
+  {
+    "name": "ラヴィ",
+    "name_en": "Flambelle",
+    "no": 70,
+    "stats": {
+      "attack": 70,
+      "defense": 80,
+      "hp": 60
+    },
+    "sub": ""
+  },
+  {
+    "name": "カバネドリ",
+    "name_en": "Vanwyrm",
+    "no": 71,
+    "stats": {
+      "attack": 115,
+      "defense": 90,
+      "hp": 90
+    },
+    "sub": ""
+  },
+  {
+    "name": "シロカバネ",
+    "name_en": "Vanwyrm Cryst",
+    "no": 71,
+    "stats": {
+      "attack": 120,
+      "defense": 95,
+      "hp": 90
+    },
+    "sub": "B"
+  },
+  {
+    "name": "ツジギリ",
+    "name_en": "Bushi",
+    "no": 72,
+    "stats": {
+      "attack": 125,
+      "defense": 80,
+      "hp": 80
+    },
+    "sub": ""
+  },
+  {
+    "name": "ライバード",
+    "name_en": "Beakon",
+    "no": 73,
+    "stats": {
+      "attack": 115,
+      "defense": 80,
+      "hp": 105
+    },
+    "sub": ""
+  },
+  {
+    "name": "イグニクス",
+    "name_en": "Ragnahawk",
+    "no": 74,
+    "stats": {
+      "attack": 105,
+      "defense": 120,
+      "hp": 95
+    },
+    "sub": ""
+  },
+  {
+    "name": "クレメーオ",
+    "name_en": "Katress",
+    "no": 75,
+    "stats": {
+      "attack": 105,
+      "defense": 90,
+      "hp": 90
+    },
+    "sub": ""
+  },
+  {
+    "name": "フォレーナ",
+    "name_en": "Wixen",
+    "no": 76,
+    "stats": {
+      "attack": 110,
+      "defense": 80,
+      "hp": 90
+    },
+    "sub": ""
+  },
+  {
+    "name": "ラベロット",
+    "name_en": "Verdash",
+    "no": 77,
+    "stats": {
+      "attack": 115,
+      "defense": 90,
+      "hp": 90
+    },
+    "sub": ""
+  },
+  {
+    "name": "ヴィオレッタ",
+    "name_en": "Vaelet",
+    "no": 78,
+    "stats": {
+      "attack": 100,
+      "defense": 120,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "シルキーヌ",
+    "name_en": "Sibelyx",
+    "no": 79,
+    "stats": {
+      "attack": 90,
+      "defense": 100,
+      "hp": 110
+    },
+    "sub": ""
+  },
+  {
+    "name": "シルフィア",
+    "name_en": "Elphidran",
+    "no": 80,
+    "stats": {
+      "attack": 80,
+      "defense": 90,
+      "hp": 110
+    },
+    "sub": ""
+  },
+  {
+    "name": "シルティア",
+    "name_en": "Elphidran Aqua",
+    "no": 80,
+    "stats": {
+      "attack": 80,
+      "defense": 95,
+      "hp": 115
+    },
+    "sub": "B"
+  },
+  {
+    "name": "ケルピス",
+    "name_en": "Kelpsea",
+    "no": 81,
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 70
+    },
+    "sub": ""
+  },
+  {
+    "name": "マグピス",
+    "name_en": "Kelpsea Ignis",
+    "no": 81,
+    "stats": {
+      "attack": 70,
+      "defense": 70,
+      "hp": 70
+    },
+    "sub": "B"
+  },
+  {
+    "name": "アズレーン",
+    "name_en": "Azurobe",
+    "no": 82,
+    "stats": {
+      "attack": 100,
+      "defense": 100,
+      "hp": 110
+    },
+    "sub": ""
+  },
+  {
+    "name": "ツンドラー",
+    "name_en": "Cryolinx",
+    "no": 83,
+    "stats": {
+      "attack": 100,
+      "defense": 110,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "ゴクエンオ",
+    "name_en": "Blazehowl",
+    "no": 84,
+    "stats": {
+      "attack": 110,
+      "defense": 80,
+      "hp": 105
+    },
+    "sub": ""
+  },
+  {
+    "name": "シンエンオ",
+    "name_en": "Blazehowl Noct",
+    "no": 84,
+    "stats": {
+      "attack": 115,
+      "defense": 80,
+      "hp": 105
+    },
+    "sub": "B"
+  },
+  {
+    "name": "ペコドン",
+    "name_en": "Relaxaurus",
+    "no": 85,
+    "stats": {
+      "attack": 100,
+      "defense": 70,
+      "hp": 110
+    },
+    "sub": ""
+  },
+  {
+    "name": "パリピドン",
+    "name_en": "Relaxaurus Lux",
+    "no": 85,
+    "stats": {
+      "attack": 110,
+      "defense": 75,
+      "hp": 110
+    },
+    "sub": "B"
+  },
+  {
+    "name": "ラブラドン",
+    "name_en": "Broncherry",
+    "no": 86,
+    "stats": {
+      "attack": 90,
+      "defense": 100,
+      "hp": 120
+    },
+    "sub": ""
+  },
+  {
+    "name": "スプラドン",
+    "name_en": "Broncherry Aqua",
+    "no": 86,
+    "stats": {
+      "attack": 95,
+      "defense": 100,
+      "hp": 120
+    },
+    "sub": "B"
+  },
+  {
+    "name": "フラリーナ",
+    "name_en": "Petallia",
+    "no": 87,
+    "stats": {
+      "attack": 95,
+      "defense": 100,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "ボルカノン",
+    "name_en": "Reptyro",
+    "no": 88,
+    "stats": {
+      "attack": 105,
+      "defense": 120,
+      "hp": 110
+    },
+    "sub": ""
+  },
+  {
+    "name": "チルカノン",
+    "name_en": "Ice Reptyro",
+    "no": 88,
+    "stats": {
+      "attack": 105,
+      "defense": 130,
+      "hp": 110
+    },
+    "sub": "B"
+  },
+  {
+    "name": "アルパオー",
+    "name_en": "Kingpaca",
+    "no": 89,
+    "stats": {
+      "attack": 85,
+      "defense": 90,
+      "hp": 120
+    },
+    "sub": ""
+  },
+  {
+    "name": "アオパオー",
+    "name_en": "Ice Kingpaca",
+    "no": 89,
+    "stats": {
+      "attack": 85,
+      "defense": 90,
+      "hp": 120
+    },
+    "sub": "B"
+  },
+  {
+    "name": "グランモス",
+    "name_en": "Mammorest",
+    "no": 90,
+    "stats": {
+      "attack": 85,
+      "defense": 90,
+      "hp": 150
+    },
+    "sub": ""
+  },
+  {
+    "name": "ブリザモス",
+    "name_en": "Mammorest Cryst",
+    "no": 90,
+    "stats": {
+      "attack": 85,
+      "defense": 90,
+      "hp": 150
+    },
+    "sub": "B"
+  },
+  {
+    "name": "ヒエティ",
+    "name_en": "Wumpo",
+    "no": 91,
+    "stats": {
+      "attack": 80,
+      "defense": 100,
+      "hp": 140
+    },
+    "sub": ""
+  },
+  {
+    "name": "トロピティ",
+    "name_en": "Wumpo Botan",
+    "no": 91,
+    "stats": {
+      "attack": 80,
+      "defense": 110,
+      "hp": 140
+    },
+    "sub": "B"
+  },
+  {
+    "name": "グラクレス",
+    "name_en": "Warsect",
+    "no": 92,
+    "stats": {
+      "attack": 100,
+      "defense": 120,
+      "hp": 120
+    },
+    "sub": ""
+  },
+  {
+    "name": "ムラクモ",
+    "name_en": "Fenglope",
+    "no": 93,
+    "stats": {
+      "attack": 110,
+      "defense": 90,
+      "hp": 110
+    },
+    "sub": ""
+  },
+  {
+    "name": "ヤミトバリ",
+    "name_en": "Felbat",
+    "no": 94,
+    "stats": {
+      "attack": 105,
+      "defense": 110,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "フェスキー",
+    "name_en": "Quivern",
+    "no": 95,
+    "stats": {
+      "attack": 100,
+      "defense": 100,
+      "hp": 105
+    },
+    "sub": ""
+  },
+  {
+    "name": "ボルカイザー",
+    "name_en": "Blazamut",
+    "no": 96,
+    "stats": {
+      "attack": 125,
+      "defense": 120,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "ヘルガルダ",
+    "name_en": "Helzephyr",
+    "no": 97,
+    "stats": {
+      "attack": 125,
+      "defense": 100,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "ジオラーヴァ",
+    "name_en": "Astegon",
+    "no": 98,
+    "stats": {
+      "attack": 125,
+      "defense": 125,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "デスティング",
+    "name_en": "Menasting",
+    "no": 99,
+    "stats": {
+      "attack": 100,
+      "defense": 130,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "アヌビス",
+    "name_en": "Anubis",
+    "no": 100,
+    "stats": {
+      "attack": 130,
+      "defense": 100,
+      "hp": 120
+    },
+    "sub": ""
+  },
+  {
+    "name": "レヴィドラ",
+    "name_en": "Jormuntide",
+    "no": 101,
+    "stats": {
+      "attack": 120,
+      "defense": 100,
+      "hp": 130
+    },
+    "sub": ""
+  },
+  {
+    "name": "アグニドラ",
+    "name_en": "Jormuntide Ignis",
+    "no": 101,
+    "stats": {
+      "attack": 130,
+      "defense": 100,
+      "hp": 130
+    },
+    "sub": "B"
+  },
+  {
+    "name": "スザク",
+    "name_en": "Suzaku",
+    "no": 102,
+    "stats": {
+      "attack": 105,
+      "defense": 105,
+      "hp": 120
+    },
+    "sub": ""
+  },
+  {
+    "name": "シヴァ",
+    "name_en": "Suzaku Aqua",
+    "no": 102,
+    "stats": {
+      "attack": 105,
+      "defense": 105,
+      "hp": 125
+    },
+    "sub": "B"
+  },
+  {
+    "name": "エレパンダ",
+    "name_en": "Grizzbolt",
+    "no": 103,
+    "stats": {
+      "attack": 100,
+      "defense": 100,
+      "hp": 105
+    },
+    "sub": ""
+  },
+  {
+    "name": "リリクイン",
+    "name_en": "Lyleen",
+    "no": 104,
+    "stats": {
+      "attack": 110,
+      "defense": 105,
+      "hp": 110
+    },
+    "sub": ""
+  },
+  {
+    "name": "ルナクイン",
+    "name_en": "Lyleen Noct",
+    "no": 104,
+    "stats": {
+      "attack": 110,
+      "defense": 115,
+      "hp": 110
+    },
+    "sub": "B"
+  },
+  {
+    "name": "ホルス",
+    "name_en": "Faleris",
+    "no": 105,
+    "stats": {
+      "attack": 105,
+      "defense": 110,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "ボルゼクス",
+    "name_en": "Orserk",
+    "no": 106,
+    "stats": {
+      "attack": 130,
+      "defense": 100,
+      "hp": 100
+    },
+    "sub": ""
+  },
+  {
+    "name": "ゼノグリフ",
+    "name_en": "Shadowbeak",
+    "no": 107,
+    "stats": {
+      "attack": 120,
+      "defense": 140,
+      "hp": 120
+    },
+    "sub": ""
+  },
+  {
+    "name": "セイントール",
+    "name_en": "Paladius",
+    "no": 108,
+    "stats": {
+      "attack": 120,
+      "defense": 145,
+      "hp": 130
+    },
+    "sub": ""
+  },
+  {
+    "name": "ベイントール",
+    "name_en": "Necromus",
+    "no": 109,
+    "stats": {
+      "attack": 145,
+      "defense": 120,
+      "hp": 130
+    },
+    "sub": ""
+  },
+  {
+    "name": "グレイシャル",
+    "name_en": "Frostallion",
+    "no": 110,
+    "stats": {
+      "attack": 140,
+      "defense": 120,
+      "hp": 140
+    },
+    "sub": ""
+  },
+  {
+    "name": "グレイシャドウ",
+    "name_en": "Frostallion Noct",
+    "no": 110,
+    "stats": {
+      "attack": 140,
+      "defense": 135,
+      "hp": 140
+    },
+    "sub": "B"
+  },
+  {
+    "name": "ジェットラン",
+    "name_en": "Jetragon",
+    "no": 111,
+    "stats": {
+      "attack": 140,
+      "defense": 110,
+      "hp": 110
+    },
+    "sub": ""
+  }
+]
