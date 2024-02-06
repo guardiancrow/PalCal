@@ -10,6 +10,58 @@ $(document).ready(function(){
         return stats;
     }
 
+    var checkInputParams = function() {
+        if (getStats($('input[name="name"]').val()) == null ||
+            !$.isNumeric($('input[name="lv"]').val()) ||
+            !$.isNumeric($('input[name="hp"]').val()) ||
+            !$.isNumeric($('input[name="atk"]').val()) ||
+            !$.isNumeric($('input[name="def"]').val())) {
+            return false;
+        }
+
+        $('input[name="lv"]').val(
+            $('input[name="lv"]').val().replace(/[０-９]/g,function(s){
+                return String.fromCharCode(s.charCodeAt(0)-0xFEE0)
+            })
+        );
+        $('input[name="hp"]').val(
+            $('input[name="hp"]').val().replace(/[０-９]/g,function(s){
+                return String.fromCharCode(s.charCodeAt(0)-0xFEE0)
+            })
+        );
+        $('input[name="atk"]').val(
+            $('input[name="atk"]').val().replace(/[０-９]/g,function(s){
+                return String.fromCharCode(s.charCodeAt(0)-0xFEE0)
+            })
+        );
+        $('input[name="def"]').val(
+            $('input[name="def"]').val().replace(/[０-９]/g,function(s){
+                return String.fromCharCode(s.charCodeAt(0)-0xFEE0)
+            })
+        );
+        $('input[name="condener"]').val(
+            $('input[name="condener"]').val().replace(/[０-９]/g,function(s){
+                return String.fromCharCode(s.charCodeAt(0)-0xFEE0)
+            })
+        );
+        $('input[name="hp_soul"]').val(
+            $('input[name="hp_soul"]').val().replace(/[０-９]/g,function(s){
+                return String.fromCharCode(s.charCodeAt(0)-0xFEE0)
+            })
+        );
+        $('input[name="atk_soul"]').val(
+            $('input[name="atk_soul"]').val().replace(/[０-９]/g,function(s){
+                return String.fromCharCode(s.charCodeAt(0)-0xFEE0)
+            })
+        );
+        $('input[name="def_soul"]').val(
+            $('input[name="def_soul"]').val().replace(/[０-９]/g,function(s){
+                return String.fromCharCode(s.charCodeAt(0)-0xFEE0)
+            })
+        );
+        return true;
+    }
+
     var getInputParams = function() {
         return {
             name: $('input[name="name"]').val(),
@@ -17,7 +69,7 @@ $(document).ready(function(){
             hp: +$('input[name="hp"]').val(),
             attack: +$('input[name="atk"]').val(),
             defense: +$('input[name="def"]').val(),
-            condenser: +$('input[name="condener"]').val(),
+            condenser: +$('input[name="condenser"]').val(),
             hp_soul: +$('input[name="hp_soul"]').val(),
             attack_soul: +$('input[name="atk_soul"]').val(),
             defense_soul: +$('input[name="def_soul"]').val()
@@ -151,7 +203,12 @@ $(document).ready(function(){
 		row.append(td);
         tbody.append(row);
 
-        var header = $("<h2>レベル" + input.level + "の" + input.name + "がとるステータスの範囲</h2>");
+        var header;
+        if (input.condenser != 0) {
+            header = $("<h2>レベル" + input.level + "の" + input.name + "(+" + input.condenser + ")" + "のステータスの範囲</h2>");
+        } else {
+            header = $("<h2>レベル" + input.level + "の" + input.name + "のステータスの範囲</h2>");
+        }
 
         var text = $('<div>');
         text.append('<p class="small text-right text-muted">最小値・最大値は個体値がそれぞれ0%・100%の値になります</p>');
@@ -168,10 +225,9 @@ $(document).ready(function(){
         var input = getInputParams();
         var name = input.name;
         var stats = getStats(name);
-        //console.log('hp:' + stats.hp + ' atk:' + stats.attack + ' def:' + stats.defense);
 
         var soul = {hp:0,attack:0,defense:0};
-        var condenser = {hp:0,attack:0,defense:0};
+        var condenser = {hp:input.condenser * 0.05, attack:input.condenser * 0.05, defense:input.condenser * 0.05};
         var multi = {hp:1,attack:1,defense:1};
 
         var total = {hp:{min:0,mid:0,max:0}, atk:{min:0,mid:0,max:0}, def:{min:0,mid:0,max:0}};
@@ -181,37 +237,62 @@ $(document).ready(function(){
         total.hp.mid = Math.floor(Math.floor(500 + 5 * input.level + stats.hp * 0.5 * input.level * (1 + 0.15)) * 1 * (1 + soul.hp) * (1 + condenser.hp));
         total.hp.max = Math.floor(Math.floor(500 + 5 * input.level + stats.hp * 0.5 * input.level * (1 + 0.3)) * 1 * (1 + soul.hp) * (1 + condenser.hp));
 
-        //console.log('hp_min:' + total.hp.min + ' hp_mid:' + total.hp.mid + ' hp_max:' + total.hp.max);
-
         total.atk.min = Math.floor(Math.floor(100 + stats.attack * 0.075 * input.level * (1 + 0)) * 1 * (1 + soul.attack) * (1 + condenser.attack));
         total.atk.mid = Math.floor(Math.floor(100 + stats.attack * 0.075 * input.level * (1 + 0.15)) * 1 * (1 + soul.attack) * (1 + condenser.attack));
         total.atk.max = Math.floor(Math.floor(100 + stats.attack * 0.075 * input.level * (1 + 0.3)) * 1 * (1 + soul.attack) * (1 + condenser.attack));
-
-        //console.log('atk_min:' + total.atk.min + ' atk_mid:' + total.atk.mid + ' atk_max:' + total.atk.max);
 
         total.def.min = Math.floor(Math.floor(50 + stats.defense * 0.075 * input.level * (1 + 0)) * 1 * (1 + soul.defense) * (1 + condenser.defense));
         total.def.mid = Math.floor(Math.floor(50 + stats.defense * 0.075 * input.level * (1 + 0.15)) * 1 * (1 + soul.defense) * (1 + condenser.defense));
         total.def.max = Math.floor(Math.floor(50 + stats.defense * 0.075 * input.level * (1 + 0.3)) * 1 * (1 + soul.defense) * (1 + condenser.defense));
 
-        //console.log('def_min:' + total.def.min + ' def_mid:' + total.def.mid + ' def_max:' + total.def.max);
-
         potential.hp.min = math.median(0, Math.ceil(input.hp / (1 + soul.hp) / (1 + condenser.hp) / multi.hp - 500 - 5 * input.level) / stats.hp / 0.5 / input.level - 1, 0.3);
         potential.hp.max = math.median(0, Math.floor((input.hp + 1) / (1 + soul.hp) / (1 + condenser.hp) / multi.hp - 500 - 5 * input.level + 1) / stats.hp / 0.5 / input.level - 1, 0.3);
         potential.hp.mid = (potential.hp.min + potential.hp.max) / 2;
-        //console.log('potential.hp.min:' + potential.hp.min + ' potential.hp.max:' + potential.hp.max);
 
         potential.atk.min = math.median(0, Math.ceil(input.attack / (1 + soul.attack) / (1 + condenser.attack) / multi.attack - 100) / stats.attack / 0.075 / input.level - 1, 0.3);
         potential.atk.max = math.median(0, Math.floor((input.attack + 1) / (1 + soul.attack) / (1 + condenser.attack) / multi.attack - 100 + 1) / stats.attack / 0.075 / input.level - 1, 0.3);
         potential.atk.mid = (potential.atk.min + potential.atk.max) / 2;
-        //console.log('potential.atk.min:' + potential.atk.min + ' potential.atk.max:' + potential.atk.max);
 
         potential.def.min = math.median(0, Math.ceil(input.defense / (1 + soul.defense) / (1 + condenser.defense) / multi.defense - 50) / stats.defense / 0.075 / input.level - 1, 0.3);
         potential.def.max = math.median(0, Math.floor((input.defense + 1) / (1 + soul.defense) / (1 + condenser.defense) / multi.defense - 50 + 1) / stats.defense / 0.075 / input.level - 1, 0.3);
         potential.def.mid = (potential.def.min + potential.def.max) / 2;
-        //console.log('potential.def.min:' + potential.def.min + ' potential.def.max:' + potential.def.max);
 
         renderPotentialTable(potential);
         renderTotalTable(input, total);
+    })
+
+    $('input[name="lv"]').change(function() {
+        if($(this).val() < 0){
+            $('input[name="lv"]').val(0);
+        }else if ($(this).val() > 50){
+            $('input[name="lv"]').val(50);
+        }
+    })
+
+    $('input[name="hp"]').change(function() {
+        if($(this).val() < 0){
+            $('input[name="hp"]').val(0);
+        }
+    })
+
+    $('input[name="atk"]').change(function() {
+        if($(this).val() < 0){
+            $('input[name="atk"]').val(0);
+        }
+    })
+
+    $('input[name="def"]').change(function() {
+        if($(this).val() < 0){
+            $('input[name="def"]').val(0);
+        }
+    })
+
+    $('input[name="condenser"]').change(function() {
+        if($(this).val() < 0){
+            $('input[name="condenser"]').val(0);
+        }else if ($(this).val() > 4){
+            $('input[name="condenser"]').val(4);
+        }
     })
 
     $('#select-name').change(function() {
