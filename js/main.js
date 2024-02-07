@@ -97,7 +97,7 @@ $(document).ready(function(){
         potential_iv.def.mid = potential.def.mid / 0.3 * 100;
         console.log('potential_iv.def.min:' + potential_iv.def.min + ' potential_iv.def.max:' + potential_iv.def.max);
 
-        var header = $('<h2>個体値の範囲</h2>');
+        var header = $('<h2>このパルの個体値</h2>');
         var responsive = $('<div>');
         responsive.attr('class', 'table-responsive table-responsive-md');
 
@@ -144,13 +144,14 @@ $(document).ready(function(){
         tbody.append(row);
 
         var text = $('<div>');
-        text.append('<p class="small text-right text-muted">入力値の小数点以下が丸められているので個体値は一意に定まらないことがほとんどです</p>');
+        text.append('<p class="small text-right text-muted">入力値の小数点以下が丸められているので見かけ上の個体値は一意に定まらないことがほとんどです</p>');
         text.append('<p class="small text-right text-muted">レベルが上がると範囲が狭くなり特定しやすくなります</p>');
 
         table.append(thead);
 		table.append(tbody);
 		responsive.append(table);
         potentialtable.append(header);
+        renderStackedBar(potentialtable, potential);
         potentialtable.append(responsive);
         potentialtable.append(text);
     }
@@ -163,7 +164,7 @@ $(document).ready(function(){
         responsive.attr('class', 'table-responsive table-responsive-md');
 
 		var table = $('<table class="table table-hover table-bordered"></table>');
-		var thead = $('<thead><tr><th></th><th><div class="th-low">最小値</div></th><th><div class="th-mid">この個体の値</div></th><th><div class="th-high">最大値</div></th></tr></thead>');
+		var thead = $('<thead><tr><th></th><th><div class="th-low">最小値</div></th><th><div class="th-mid">このパルの値</div></th><th><div class="th-high">最大値</div></th></tr></thead>');
 		var tbody = $("<tbody>");
         var row;
         var td;
@@ -205,9 +206,9 @@ $(document).ready(function(){
 
         var header;
         if (input.condenser != 0) {
-            header = $("<h2>レベル" + input.level + "の" + input.name + "(+" + input.condenser + ")" + "のステータスの範囲</h2>");
+            header = $("<h3>レベル" + input.level + "の" + input.name + "(+" + input.condenser + ")" + "のステータスの範囲</h3>");
         } else {
-            header = $("<h2>レベル" + input.level + "の" + input.name + "のステータスの範囲</h2>");
+            header = $("<h3>レベル" + input.level + "の" + input.name + "のステータスの範囲</h3>");
         }
 
         var text = $('<div>');
@@ -219,6 +220,53 @@ $(document).ready(function(){
         totaltable.append(header);
         totaltable.append(responsive);
         totaltable.append(text);
+    }
+
+    var renderStackedBar = function(potentialtable, potential) {
+        //var stackedbar = $("#hpstackedbar");
+        //stackedbar.empty();
+
+        var stackedbar = potentialtable;
+
+        var potential_iv = {hp:{min:0,mid:0,max:0}, atk:{min:0,mid:0,max:0}, def:{min:0,mid:0,max:0}};
+
+        potential_iv.hp.min = potential.hp.min / 0.3 * 100;
+        potential_iv.hp.max = potential.hp.max / 0.3 * 100;
+        potential_iv.hp.mid = potential.hp.mid / 0.3 * 100;
+        potential_iv.atk.min = potential.atk.min / 0.3 * 100;
+        potential_iv.atk.max = potential.atk.max / 0.3 * 100;
+        potential_iv.atk.mid = potential.atk.mid / 0.3 * 100;
+        potential_iv.def.min = potential.def.min / 0.3 * 100;
+        potential_iv.def.max = potential.def.max / 0.3 * 100;
+        potential_iv.def.mid = potential.def.mid / 0.3 * 100;
+
+        var lower = potential_iv.hp.min;
+        var mid = potential_iv.hp.max - potential_iv.hp.min;
+
+        //stackedbar.append('<h3>個体値イメージ</h3>');
+        stackedbar.append('<div class="progress-stacked">'+
+            '<div class="progress" role="progressbar" aria-valuenow="' + lower + '" aria-valuemin="0" aria-valuemax="100" style="width:' + lower + '%"><div class="progress-bar bg-success overflow-visible text-dark">HP ' + Math.round(potential_iv.hp.mid * 100) / 100 + '％</div></div>'+
+            '<div class="progress" role="progressbar" aria-valuenow="' + mid + '" aria-valuemin="0" aria-valuemax="100" style="width:' + mid + '%"><div class="progress-bar progress-bar-striped progress-bar-animated bg-success"></div></div></div>');
+
+        lower = potential_iv.atk.min;
+        mid = potential_iv.atk.max - potential_iv.atk.min;
+
+        //stackedbar = $("#atkstackedbar");
+        //stackedbar.empty();
+
+        stackedbar.append('<div class="progress-stacked">'+
+            '<div class="progress" aria-valuenow="' + lower + '" aria-valuemin="0" aria-valuemax="100" style="width:' + lower + '%"><div class="progress-bar bg-danger overflow-visible text-dark">攻撃 ' + Math.round(potential_iv.atk.mid * 100) / 100 + '％</div></div>'+
+            '<div class="progress" aria-valuenow="' + mid + '" aria-valuemin="0" aria-valuemax="100" style="width:' + mid + '%"><div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"></div></div></div>');
+
+        lower = potential_iv.def.min;
+        mid = potential_iv.def.max - potential_iv.def.min;
+
+        //stackedbar = $("#defstackedbar");
+        //stackedbar.empty();
+
+        stackedbar.append('<div class="progress-stacked">'+
+            '<div class="progress" aria-valuenow="' + lower + '" aria-valuemin="0" aria-valuemax="100" style="width:' + lower + '%"><div class="progress-bar bg-warning overflow-visible text-dark">防御 ' + Math.round(potential_iv.def.mid * 100) / 100 + '％</div></div>'+
+            '<div class="progress" aria-valuenow="' + mid + '" aria-valuemin="0" aria-valuemax="100" style="width:' + mid + '%"><div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"></div></div></div>');
     }
 
     $('#calcIV').on('click', function() {
