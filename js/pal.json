@@ -1,7 +1,10 @@
 [
   {
-    "name": "モコロン",
-    "name_en": "Lamball",
+    "name": {
+      "en": "Lamball",
+      "hira": "もころん",
+      "jp": "モコロン"
+    },
     "no": 1,
     "stats": {
       "attack": 70,
@@ -11,8 +14,11 @@
     "sub": ""
   },
   {
-    "name": "ツッパニャン",
-    "name_en": "Cattiva",
+    "name": {
+      "en": "Cattiva",
+      "hira": "つっぱにゃん",
+      "jp": "ツッパニャン"
+    },
     "no": 2,
     "stats": {
       "attack": 70,
@@ -22,8 +28,11 @@
     "sub": ""
   },
   {
-    "name": "タマコッコ",
-    "name_en": "Chikipi",
+    "name": {
+      "en": "Chikipi",
+      "hira": "たまこっこ",
+      "jp": "タマコッコ"
+    },
     "no": 3,
     "stats": {
       "attack": 60,
@@ -33,8 +42,11 @@
     "sub": ""
   },
   {
-    "name": "クルリス",
-    "name_en": "Lifmunk",
+    "name": {
+      "en": "Lifmunk",
+      "hira": "くるりす",
+      "jp": "クルリス"
+    },
     "no": 4,
     "stats": {
       "attack": 70,
@@ -44,8 +56,11 @@
     "sub": ""
   },
   {
-    "name": "キツネビ",
-    "name_en": "Foxparks",
+    "name": {
+      "en": "Foxparks",
+      "hira": "きつねび",
+      "jp": "キツネビ"
+    },
     "no": 5,
     "stats": {
       "attack": 75,
@@ -55,8 +70,11 @@
     "sub": ""
   },
   {
-    "name": "カモノスケ",
-    "name_en": "Fuack",
+    "name": {
+      "en": "Fuack",
+      "hira": "かものすけ",
+      "jp": "カモノスケ"
+    },
     "no": 6,
     "stats": {
       "attack": 80,
@@ -66,8 +84,11 @@
     "sub": ""
   },
   {
-    "name": "ボルトラ",
-    "name_en": "Sparkit",
+    "name": {
+      "en": "Sparkit",
+      "hira": "ぼるとら",
+      "jp": "ボルトラ"
+    },
     "no": 7,
     "stats": {
       "attack": 75,
@@ -77,8 +98,11 @@
     "sub": ""
   },
   {
-    "name": "エテッパ",
-    "name_en": "Tanzee",
+    "name": {
+      "en": "Tanzee",
+      "hira": "えてっぱ",
+      "jp": "エテッパ"
+    },
     "no": 8,
     "stats": {
       "attack": 70,
@@ -88,8 +112,11 @@
     "sub": ""
   },
   {
-    "name": "ヒノコジカ",
-    "name_en": "Rooby",
+    "name": {
+      "en": "Rooby",
+      "hira": "ひのこじか",
+      "jp": "ヒノコジカ"
+    },
     "no": 9,
     "stats": {
       "attack": 70,
@@ -99,8 +126,11 @@
     "sub": ""
   },
   {
-    "name": "ペンタマ",
-    "name_en": "Pengullet",
+    "name": {
+      "en": "Pengullet",
+      "hira": "ぺんたま",
+      "jp": "ペンタマ"
+    },
     "no": 10,
     "stats": {
       "attack": 75,
@@ -110,8 +140,11 @@
     "sub": ""
   },
   {
-    "name": "キャプペン",
-    "name_en": "Penking",
+    "name": {
+      "en": "Penking",
+      "hira": "きゃぷぺん",
+      "jp": "キャプペン"
+    },
     "no": 11,
     "stats": {
       "attack": 95,
@@ -121,8 +154,11 @@
     "sub": ""
   },
   {
-    "name": "パチグリ",
-    "name_en": "Jolthog",
+    "name": {
+      "en": "Jolthog",
+      "hira": "ぱちぐり",
+      "jp": "パチグリ"
+    },
     "no": 12,
     "stats": {
       "attack": 75,
@@ -132,8 +168,11 @@
     "sub": ""
   },
   {
-    "name": "コチグリ",
-    "name_en": "Jolthog Cryst",
+    "name": {
+      "en": "Jolthog Cryst",
+      "hira": "こちぐり",
+      "jp": "コチグリ"
+    },
     "no": 12,
     "stats": {
       "attack": 75,
@@ -143,8 +182,11 @@
     "sub": "B"
   },
   {
-    "name": "ナエモチ",
-    "name_en": "Gumoss",
+    "name": {
+      "en": "Gumoss",
+      "hira": "なえもち",
+      "jp": "ナエモチ"
+    },
     "no": 13,
     "stats": {
       "attack": 70,
@@ -154,8 +196,11 @@
     "sub": ""
   },
   {
-    "name": "ナエモチ(特殊)",
-    "name_en": "Gumoss (Special)",
+    "name": {
+      "en": "Gumoss (Special)",
+      "hira": "なえもち（とくしゅ）",
+      "jp": "ナエモチ(特殊)"
+    },
     "no": 13,
     "stats": {
       "attack": 70,
@@ -165,8 +210,11 @@
     "sub": "B"
   },
   {
-    "name": "タマモ",
-    "name_en": "Vixy",
+    "name": {
+      "en": "Vixy",
+      "hira": "たまも",
+      "jp": "タマモ"
+    },
     "no": 14,
     "stats": {
       "attack": 70,
@@ -176,8 +224,11 @@
     "sub": ""
   },
   {
-    "name": "ホウロック",
-    "name_en": "Hoocrates",
+    "name": {
+      "en": "Hoocrates",
+      "hira": "ほうろっく",
+      "jp": "ホウロック"
+    },
     "no": 15,
     "stats": {
       "attack": 70,
@@ -187,8 +238,11 @@
     "sub": ""
   },
   {
-    "name": "チョロゾウ",
-    "name_en": "Teafant",
+    "name": {
+      "en": "Teafant",
+      "hira": "ちょろぞう",
+      "jp": "チョロゾウ"
+    },
     "no": 16,
     "stats": {
       "attack": 60,
@@ -198,8 +252,11 @@
     "sub": ""
   },
   {
-    "name": "ンダコアラ",
-    "name_en": "Depresso",
+    "name": {
+      "en": "Depresso",
+      "hira": "んだこあら",
+      "jp": "ンダコアラ"
+    },
     "no": 17,
     "stats": {
       "attack": 70,
@@ -209,8 +266,11 @@
     "sub": ""
   },
   {
-    "name": "ミルフィー",
-    "name_en": "Cremis",
+    "name": {
+      "en": "Cremis",
+      "hira": "みるふぃー",
+      "jp": "ミルフィー"
+    },
     "no": 18,
     "stats": {
       "attack": 70,
@@ -220,8 +280,11 @@
     "sub": ""
   },
   {
-    "name": "ネムラム",
-    "name_en": "Daedream",
+    "name": {
+      "en": "Daedream",
+      "hira": "ねむらむ",
+      "jp": "ネムラム"
+    },
     "no": 19,
     "stats": {
       "attack": 75,
@@ -231,8 +294,11 @@
     "sub": ""
   },
   {
-    "name": "イノボウ",
-    "name_en": "Rushoar",
+    "name": {
+      "en": "Rushoar",
+      "hira": "いのぼう",
+      "jp": "イノボウ"
+    },
     "no": 20,
     "stats": {
       "attack": 70,
@@ -242,8 +308,11 @@
     "sub": ""
   },
   {
-    "name": "ルナティ",
-    "name_en": "Nox",
+    "name": {
+      "en": "Nox",
+      "hira": "るなてぃ",
+      "jp": "ルナティ"
+    },
     "no": 21,
     "stats": {
       "attack": 85,
@@ -253,8 +322,11 @@
     "sub": ""
   },
   {
-    "name": "モグルン",
-    "name_en": "Fuddler",
+    "name": {
+      "en": "Fuddler",
+      "hira": "もぐるん",
+      "jp": "モグルン"
+    },
     "no": 22,
     "stats": {
       "attack": 80,
@@ -264,8 +336,11 @@
     "sub": ""
   },
   {
-    "name": "ヤミイカ",
-    "name_en": "Killamari",
+    "name": {
+      "en": "Killamari",
+      "hira": "やみいか",
+      "jp": "ヤミイカ"
+    },
     "no": 23,
     "stats": {
       "attack": 60,
@@ -275,8 +350,11 @@
     "sub": ""
   },
   {
-    "name": "ニャオテト",
-    "name_en": "Mau",
+    "name": {
+      "en": "Mau",
+      "hira": "にゃおてと",
+      "jp": "ニャオテト"
+    },
     "no": 24,
     "stats": {
       "attack": 60,
@@ -286,8 +364,11 @@
     "sub": ""
   },
   {
-    "name": "チルテト",
-    "name_en": "Mau Cryst",
+    "name": {
+      "en": "Mau Cryst",
+      "hira": "ちるてと",
+      "jp": "チルテト"
+    },
     "no": 24,
     "stats": {
       "attack": 65,
@@ -297,8 +378,11 @@
     "sub": "B"
   },
   {
-    "name": "ルミカイト",
-    "name_en": "Celaray",
+    "name": {
+      "en": "Celaray",
+      "hira": "るみかいと",
+      "jp": "ルミカイト"
+    },
     "no": 25,
     "stats": {
       "attack": 70,
@@ -308,8 +392,11 @@
     "sub": ""
   },
   {
-    "name": "ガウルフ",
-    "name_en": "Direhowl",
+    "name": {
+      "en": "Direhowl",
+      "hira": "がうるふ",
+      "jp": "ガウルフ"
+    },
     "no": 26,
     "stats": {
       "attack": 90,
@@ -319,8 +406,11 @@
     "sub": ""
   },
   {
-    "name": "クルットリ",
-    "name_en": "Tocotoco",
+    "name": {
+      "en": "Tocotoco",
+      "hira": "くるっとり",
+      "jp": "クルットリ"
+    },
     "no": 27,
     "stats": {
       "attack": 75,
@@ -330,8 +420,11 @@
     "sub": ""
   },
   {
-    "name": "ポプリーナ",
-    "name_en": "Flopie",
+    "name": {
+      "en": "Flopie",
+      "hira": "ぽぷりーな",
+      "jp": "ポプリーナ"
+    },
     "no": 28,
     "stats": {
       "attack": 65,
@@ -341,8 +434,11 @@
     "sub": ""
   },
   {
-    "name": "ミルカルビ",
-    "name_en": "Mozzarina",
+    "name": {
+      "en": "Mozzarina",
+      "hira": "みるかるび",
+      "jp": "ミルカルビ"
+    },
     "no": 29,
     "stats": {
       "attack": 50,
@@ -352,8 +448,11 @@
     "sub": ""
   },
   {
-    "name": "イバラヒメ",
-    "name_en": "Bristla",
+    "name": {
+      "en": "Bristla",
+      "hira": "いばらひめ",
+      "jp": "イバラヒメ"
+    },
     "no": 30,
     "stats": {
       "attack": 80,
@@ -363,8 +462,11 @@
     "sub": ""
   },
   {
-    "name": "シャーキッド",
-    "name_en": "Gobfin",
+    "name": {
+      "en": "Gobfin",
+      "hira": "しゃーきっど",
+      "jp": "シャーキッド"
+    },
     "no": 31,
     "stats": {
       "attack": 90,
@@ -374,8 +476,11 @@
     "sub": ""
   },
   {
-    "name": "シャーマンダー",
-    "name_en": "Gobfin Ignis",
+    "name": {
+      "en": "Gobfin Ignis",
+      "hira": "しゃーまんだー",
+      "jp": "シャーマンダー"
+    },
     "no": 31,
     "stats": {
       "attack": 90,
@@ -385,8 +490,11 @@
     "sub": "B"
   },
   {
-    "name": "シメナワ",
-    "name_en": "Hangyu",
+    "name": {
+      "en": "Hangyu",
+      "hira": "しめなわ",
+      "jp": "シメナワ"
+    },
     "no": 32,
     "stats": {
       "attack": 70,
@@ -396,8 +504,11 @@
     "sub": ""
   },
   {
-    "name": "オバケナワ",
-    "name_en": "Hangyu Cryst",
+    "name": {
+      "en": "Hangyu Cryst",
+      "hira": "おばけなわ",
+      "jp": "オバケナワ"
+    },
     "no": 32,
     "stats": {
       "attack": 80,
@@ -407,8 +518,11 @@
     "sub": "B"
   },
   {
-    "name": "ササゾー",
-    "name_en": "Mossanda",
+    "name": {
+      "en": "Mossanda",
+      "hira": "ささぞー",
+      "jp": "ササゾー"
+    },
     "no": 33,
     "stats": {
       "attack": 90,
@@ -418,8 +532,11 @@
     "sub": ""
   },
   {
-    "name": "ライゾー",
-    "name_en": "Mossanda Lux",
+    "name": {
+      "en": "Mossanda Lux",
+      "hira": "らいぞー",
+      "jp": "ライゾー"
+    },
     "no": 33,
     "stats": {
       "attack": 100,
@@ -429,8 +546,11 @@
     "sub": "B"
   },
   {
-    "name": "メリポップ",
-    "name_en": "Woolipop",
+    "name": {
+      "en": "Woolipop",
+      "hira": "めりぽっぷ",
+      "jp": "メリポップ"
+    },
     "no": 34,
     "stats": {
       "attack": 70,
@@ -440,8 +560,11 @@
     "sub": ""
   },
   {
-    "name": "ベリゴート",
-    "name_en": "Caprity",
+    "name": {
+      "en": "Caprity",
+      "hira": "べりごーと",
+      "jp": "ベリゴート"
+    },
     "no": 35,
     "stats": {
       "attack": 70,
@@ -451,8 +574,11 @@
     "sub": ""
   },
   {
-    "name": "メルパカ",
-    "name_en": "Melpaca",
+    "name": {
+      "en": "Melpaca",
+      "hira": "めるぱか",
+      "jp": "メルパカ"
+    },
     "no": 36,
     "stats": {
       "attack": 75,
@@ -462,8 +588,11 @@
     "sub": ""
   },
   {
-    "name": "ツノガミ",
-    "name_en": "Eikthyrdeer",
+    "name": {
+      "en": "Eikthyrdeer",
+      "hira": "つのがみ",
+      "jp": "ツノガミ"
+    },
     "no": 37,
     "stats": {
       "attack": 80,
@@ -473,8 +602,11 @@
     "sub": ""
   },
   {
-    "name": "ヤマガミ",
-    "name_en": "Eikthyrdeer Terra",
+    "name": {
+      "en": "Eikthyrdeer Terra",
+      "hira": "やまがみ",
+      "jp": "ヤマガミ"
+    },
     "no": 37,
     "stats": {
       "attack": 80,
@@ -484,8 +616,11 @@
     "sub": "B"
   },
   {
-    "name": "ホークウィン",
-    "name_en": "Nitewing",
+    "name": {
+      "en": "Nitewing",
+      "hira": "ほーくうぃん",
+      "jp": "ホークウィン"
+    },
     "no": 38,
     "stats": {
       "attack": 95,
@@ -495,8 +630,11 @@
     "sub": ""
   },
   {
-    "name": "ヒメウサ",
-    "name_en": "Ribunny",
+    "name": {
+      "en": "Ribunny",
+      "hira": "ひめうさ",
+      "jp": "ヒメウサ"
+    },
     "no": 39,
     "stats": {
       "attack": 65,
@@ -506,8 +644,11 @@
     "sub": ""
   },
   {
-    "name": "ヘルゴート",
-    "name_en": "Incineram",
+    "name": {
+      "en": "Incineram",
+      "hira": "へるごーと",
+      "jp": "ヘルゴート"
+    },
     "no": 40,
     "stats": {
       "attack": 100,
@@ -517,8 +658,11 @@
     "sub": ""
   },
   {
-    "name": "アビスゴート",
-    "name_en": "Incineram Noct",
+    "name": {
+      "en": "Incineram Noct",
+      "hira": "あびすごーと",
+      "jp": "アビスゴート"
+    },
     "no": 40,
     "stats": {
       "attack": 105,
@@ -528,8 +672,11 @@
     "sub": "B"
   },
   {
-    "name": "パピテフ",
-    "name_en": "Cinnamoth",
+    "name": {
+      "en": "Cinnamoth",
+      "hira": "ぱぴてふ",
+      "jp": "パピテフ"
+    },
     "no": 41,
     "stats": {
       "attack": 80,
@@ -539,8 +686,11 @@
     "sub": ""
   },
   {
-    "name": "ブルフェルノ",
-    "name_en": "Arsox",
+    "name": {
+      "en": "Arsox",
+      "hira": "ぶるふぇるの",
+      "jp": "ブルフェルノ"
+    },
     "no": 42,
     "stats": {
       "attack": 95,
@@ -550,8 +700,11 @@
     "sub": ""
   },
   {
-    "name": "トドドドン",
-    "name_en": "Dumud",
+    "name": {
+      "en": "Dumud",
+      "hira": "とどどどん",
+      "jp": "トドドドン"
+    },
     "no": 43,
     "stats": {
       "attack": 70,
@@ -561,8 +714,11 @@
     "sub": ""
   },
   {
-    "name": "マスクロウ",
-    "name_en": "Cawgnito",
+    "name": {
+      "en": "Cawgnito",
+      "hira": "ますくろう",
+      "jp": "マスクロウ"
+    },
     "no": 44,
     "stats": {
       "attack": 95,
@@ -572,8 +728,11 @@
     "sub": ""
   },
   {
-    "name": "ダリザード",
-    "name_en": "Leezpunk",
+    "name": {
+      "en": "Leezpunk",
+      "hira": "だりざーど",
+      "jp": "ダリザード"
+    },
     "no": 45,
     "stats": {
       "attack": 80,
@@ -583,8 +742,11 @@
     "sub": ""
   },
   {
-    "name": "チリザード",
-    "name_en": "Leezpunk Ignis",
+    "name": {
+      "en": "Leezpunk Ignis",
+      "hira": "ちりざーど",
+      "jp": "チリザード"
+    },
     "no": 45,
     "stats": {
       "attack": 80,
@@ -594,8 +756,11 @@
     "sub": "B"
   },
   {
-    "name": "ツキカゲ",
-    "name_en": "Loupmoon",
+    "name": {
+      "en": "Loupmoon",
+      "hira": "つきかげ",
+      "jp": "ツキカゲ"
+    },
     "no": 46,
     "stats": {
       "attack": 100,
@@ -605,8 +770,11 @@
     "sub": ""
   },
   {
-    "name": "エアムルグ",
-    "name_en": "Galeclaw",
+    "name": {
+      "en": "Galeclaw",
+      "hira": "えあむるぐ",
+      "jp": "エアムルグ"
+    },
     "no": 47,
     "stats": {
       "attack": 85,
@@ -616,8 +784,11 @@
     "sub": ""
   },
   {
-    "name": "フェザーロ",
-    "name_en": "Robinquill",
+    "name": {
+      "en": "Robinquill",
+      "hira": "ふぇざーろ",
+      "jp": "フェザーロ"
+    },
     "no": 48,
     "stats": {
       "attack": 105,
@@ -627,8 +798,11 @@
     "sub": ""
   },
   {
-    "name": "サンドロ",
-    "name_en": "Robinquill Terra",
+    "name": {
+      "en": "Robinquill Terra",
+      "hira": "さんどろ",
+      "jp": "サンドロ"
+    },
     "no": 48,
     "stats": {
       "attack": 105,
@@ -638,8 +812,11 @@
     "sub": "B"
   },
   {
-    "name": "ゴリレイジ",
-    "name_en": "Gorirat",
+    "name": {
+      "en": "Gorirat",
+      "hira": "ごりれいじ",
+      "jp": "ゴリレイジ"
+    },
     "no": 49,
     "stats": {
       "attack": 95,
@@ -649,8 +826,11 @@
     "sub": ""
   },
   {
-    "name": "ビーナイト",
-    "name_en": "Beegarde",
+    "name": {
+      "en": "Beegarde",
+      "hira": "びーないと",
+      "jp": "ビーナイト"
+    },
     "no": 50,
     "stats": {
       "attack": 90,
@@ -660,8 +840,11 @@
     "sub": ""
   },
   {
-    "name": "クインビーナ",
-    "name_en": "Elizabee",
+    "name": {
+      "en": "Elizabee",
+      "hira": "くいんびーな",
+      "jp": "クインビーナ"
+    },
     "no": 51,
     "stats": {
       "attack": 105,
@@ -671,8 +854,11 @@
     "sub": ""
   },
   {
-    "name": "ニャンギマリ",
-    "name_en": "Grintale",
+    "name": {
+      "en": "Grintale",
+      "hira": "にゃんぎまり",
+      "jp": "ニャンギマリ"
+    },
     "no": 52,
     "stats": {
       "attack": 80,
@@ -682,8 +868,11 @@
     "sub": ""
   },
   {
-    "name": "コモップ",
-    "name_en": "Swee",
+    "name": {
+      "en": "Swee",
+      "hira": "こもっぷ",
+      "jp": "コモップ"
+    },
     "no": 53,
     "stats": {
       "attack": 60,
@@ -693,8 +882,11 @@
     "sub": ""
   },
   {
-    "name": "ドンモップ",
-    "name_en": "Sweepa",
+    "name": {
+      "en": "Sweepa",
+      "hira": "どんもっぷ",
+      "jp": "ドンモップ"
+    },
     "no": 54,
     "stats": {
       "attack": 90,
@@ -704,8 +896,11 @@
     "sub": ""
   },
   {
-    "name": "オコチョ",
-    "name_en": "Chillet",
+    "name": {
+      "en": "Chillet",
+      "hira": "おこちょ",
+      "jp": "オコチョ"
+    },
     "no": 55,
     "stats": {
       "attack": 80,
@@ -715,8 +910,11 @@
     "sub": ""
   },
   {
-    "name": "ライコーン",
-    "name_en": "Univolt",
+    "name": {
+      "en": "Univolt",
+      "hira": "らいこーん",
+      "jp": "ライコーン"
+    },
     "no": 56,
     "stats": {
       "attack": 105,
@@ -726,8 +924,11 @@
     "sub": ""
   },
   {
-    "name": "フブキツネ",
-    "name_en": "Foxcicle",
+    "name": {
+      "en": "Foxcicle",
+      "hira": "ふぶきつね",
+      "jp": "フブキツネ"
+    },
     "no": 57,
     "stats": {
       "attack": 95,
@@ -737,8 +938,11 @@
     "sub": ""
   },
   {
-    "name": "サラブレイズ",
-    "name_en": "Pyrin",
+    "name": {
+      "en": "Pyrin",
+      "hira": "さらぶれいず",
+      "jp": "サラブレイズ"
+    },
     "no": 58,
     "stats": {
       "attack": 95,
@@ -748,8 +952,11 @@
     "sub": ""
   },
   {
-    "name": "サラブラック",
-    "name_en": "Pyrin Noct",
+    "name": {
+      "en": "Pyrin Noct",
+      "hira": "さらぶらっく",
+      "jp": "サラブラック"
+    },
     "no": 58,
     "stats": {
       "attack": 95,
@@ -759,8 +966,11 @@
     "sub": "B"
   },
   {
-    "name": "ツララジカ",
-    "name_en": "Reindrix",
+    "name": {
+      "en": "Reindrix",
+      "hira": "つららじか",
+      "jp": "ツララジカ"
+    },
     "no": 59,
     "stats": {
       "attack": 85,
@@ -770,8 +980,11 @@
     "sub": ""
   },
   {
-    "name": "イヌズマ",
-    "name_en": "Rayhound",
+    "name": {
+      "en": "Rayhound",
+      "hira": "いぬずま",
+      "jp": "イヌズマ"
+    },
     "no": 60,
     "stats": {
       "attack": 100,
@@ -781,8 +994,11 @@
     "sub": ""
   },
   {
-    "name": "シラヌイ",
-    "name_en": "Kitsun",
+    "name": {
+      "en": "Kitsun",
+      "hira": "しらぬい",
+      "jp": "シラヌイ"
+    },
     "no": 61,
     "stats": {
       "attack": 115,
@@ -792,8 +1008,11 @@
     "sub": ""
   },
   {
-    "name": "カミナラシ",
-    "name_en": "Dazzi",
+    "name": {
+      "en": "Dazzi",
+      "hira": "かみならし",
+      "jp": "カミナラシ"
+    },
     "no": 62,
     "stats": {
       "attack": 80,
@@ -803,8 +1022,11 @@
     "sub": ""
   },
   {
-    "name": "ミステリア",
-    "name_en": "Lunaris",
+    "name": {
+      "en": "Lunaris",
+      "hira": "みすてりあ",
+      "jp": "ミステリア"
+    },
     "no": 63,
     "stats": {
       "attack": 100,
@@ -814,8 +1036,11 @@
     "sub": ""
   },
   {
-    "name": "アロアリュー",
-    "name_en": "Dinossom",
+    "name": {
+      "en": "Dinossom",
+      "hira": "あろありゅー",
+      "jp": "アロアリュー"
+    },
     "no": 64,
     "stats": {
       "attack": 85,
@@ -825,8 +1050,11 @@
     "sub": ""
   },
   {
-    "name": "ビリビリュー",
-    "name_en": "Dinossom Lux",
+    "name": {
+      "en": "Dinossom Lux",
+      "hira": "びりびりゅー",
+      "jp": "ビリビリュー"
+    },
     "no": 64,
     "stats": {
       "attack": 90,
@@ -836,8 +1064,11 @@
     "sub": "B"
   },
   {
-    "name": "シーペント",
-    "name_en": "Surfent",
+    "name": {
+      "en": "Surfent",
+      "hira": "しーぺんと",
+      "jp": "シーペント"
+    },
     "no": 65,
     "stats": {
       "attack": 90,
@@ -847,8 +1078,11 @@
     "sub": ""
   },
   {
-    "name": "スナペント",
-    "name_en": "Surfent Terra",
+    "name": {
+      "en": "Surfent Terra",
+      "hira": "すなぺんと",
+      "jp": "スナペント"
+    },
     "no": 65,
     "stats": {
       "attack": 90,
@@ -858,8 +1092,11 @@
     "sub": "B"
   },
   {
-    "name": "ソルレイス",
-    "name_en": "Maraith",
+    "name": {
+      "en": "Maraith",
+      "hira": "そるれいす",
+      "jp": "ソルレイス"
+    },
     "no": 66,
     "stats": {
       "attack": 105,
@@ -869,8 +1106,11 @@
     "sub": ""
   },
   {
-    "name": "ドリタス",
-    "name_en": "Digtoise",
+    "name": {
+      "en": "Digtoise",
+      "hira": "どりたす",
+      "jp": "ドリタス"
+    },
     "no": 67,
     "stats": {
       "attack": 95,
@@ -880,8 +1120,11 @@
     "sub": ""
   },
   {
-    "name": "ニャンバット",
-    "name_en": "Tombat",
+    "name": {
+      "en": "Tombat",
+      "hira": "にゃんばっと",
+      "jp": "ニャンバット"
+    },
     "no": 68,
     "stats": {
       "attack": 95,
@@ -891,8 +1134,11 @@
     "sub": ""
   },
   {
-    "name": "ラブマンダー",
-    "name_en": "Lovander",
+    "name": {
+      "en": "Lovander",
+      "hira": "らぶまんだー",
+      "jp": "ラブマンダー"
+    },
     "no": 69,
     "stats": {
       "attack": 70,
@@ -902,8 +1148,11 @@
     "sub": ""
   },
   {
-    "name": "ラヴィ",
-    "name_en": "Flambelle",
+    "name": {
+      "en": "Flambelle",
+      "hira": "らヴぃ",
+      "jp": "ラヴィ"
+    },
     "no": 70,
     "stats": {
       "attack": 70,
@@ -913,8 +1162,11 @@
     "sub": ""
   },
   {
-    "name": "カバネドリ",
-    "name_en": "Vanwyrm",
+    "name": {
+      "en": "Vanwyrm",
+      "hira": "かばねどり",
+      "jp": "カバネドリ"
+    },
     "no": 71,
     "stats": {
       "attack": 115,
@@ -924,8 +1176,11 @@
     "sub": ""
   },
   {
-    "name": "シロカバネ",
-    "name_en": "Vanwyrm Cryst",
+    "name": {
+      "en": "Vanwyrm Cryst",
+      "hira": "しろかばね",
+      "jp": "シロカバネ"
+    },
     "no": 71,
     "stats": {
       "attack": 120,
@@ -935,8 +1190,11 @@
     "sub": "B"
   },
   {
-    "name": "ツジギリ",
-    "name_en": "Bushi",
+    "name": {
+      "en": "Bushi",
+      "hira": "つじぎり",
+      "jp": "ツジギリ"
+    },
     "no": 72,
     "stats": {
       "attack": 125,
@@ -946,8 +1204,11 @@
     "sub": ""
   },
   {
-    "name": "ライバード",
-    "name_en": "Beakon",
+    "name": {
+      "en": "Beakon",
+      "hira": "らいばーど",
+      "jp": "ライバード"
+    },
     "no": 73,
     "stats": {
       "attack": 115,
@@ -957,8 +1218,11 @@
     "sub": ""
   },
   {
-    "name": "イグニクス",
-    "name_en": "Ragnahawk",
+    "name": {
+      "en": "Ragnahawk",
+      "hira": "いぐにくす",
+      "jp": "イグニクス"
+    },
     "no": 74,
     "stats": {
       "attack": 105,
@@ -968,8 +1232,11 @@
     "sub": ""
   },
   {
-    "name": "クレメーオ",
-    "name_en": "Katress",
+    "name": {
+      "en": "Katress",
+      "hira": "くれめーお",
+      "jp": "クレメーオ"
+    },
     "no": 75,
     "stats": {
       "attack": 105,
@@ -979,8 +1246,11 @@
     "sub": ""
   },
   {
-    "name": "フォレーナ",
-    "name_en": "Wixen",
+    "name": {
+      "en": "Wixen",
+      "hira": "ふぉれーな",
+      "jp": "フォレーナ"
+    },
     "no": 76,
     "stats": {
       "attack": 110,
@@ -990,8 +1260,11 @@
     "sub": ""
   },
   {
-    "name": "ラベロット",
-    "name_en": "Verdash",
+    "name": {
+      "en": "Verdash",
+      "hira": "らべろっと",
+      "jp": "ラベロット"
+    },
     "no": 77,
     "stats": {
       "attack": 115,
@@ -1001,8 +1274,11 @@
     "sub": ""
   },
   {
-    "name": "ヴィオレッタ",
-    "name_en": "Vaelet",
+    "name": {
+      "en": "Vaelet",
+      "hira": "ヴぃおれった",
+      "jp": "ヴィオレッタ"
+    },
     "no": 78,
     "stats": {
       "attack": 100,
@@ -1012,8 +1288,11 @@
     "sub": ""
   },
   {
-    "name": "シルキーヌ",
-    "name_en": "Sibelyx",
+    "name": {
+      "en": "Sibelyx",
+      "hira": "しるきーぬ",
+      "jp": "シルキーヌ"
+    },
     "no": 79,
     "stats": {
       "attack": 90,
@@ -1023,8 +1302,11 @@
     "sub": ""
   },
   {
-    "name": "シルフィア",
-    "name_en": "Elphidran",
+    "name": {
+      "en": "Elphidran",
+      "hira": "しるふぃあ",
+      "jp": "シルフィア"
+    },
     "no": 80,
     "stats": {
       "attack": 80,
@@ -1034,8 +1316,11 @@
     "sub": ""
   },
   {
-    "name": "シルティア",
-    "name_en": "Elphidran Aqua",
+    "name": {
+      "en": "Elphidran Aqua",
+      "hira": "しるてぃあ",
+      "jp": "シルティア"
+    },
     "no": 80,
     "stats": {
       "attack": 80,
@@ -1045,8 +1330,11 @@
     "sub": "B"
   },
   {
-    "name": "ケルピス",
-    "name_en": "Kelpsea",
+    "name": {
+      "en": "Kelpsea",
+      "hira": "けるぴす",
+      "jp": "ケルピス"
+    },
     "no": 81,
     "stats": {
       "attack": 70,
@@ -1056,8 +1344,11 @@
     "sub": ""
   },
   {
-    "name": "マグピス",
-    "name_en": "Kelpsea Ignis",
+    "name": {
+      "en": "Kelpsea Ignis",
+      "hira": "まぐぴす",
+      "jp": "マグピス"
+    },
     "no": 81,
     "stats": {
       "attack": 70,
@@ -1067,8 +1358,11 @@
     "sub": "B"
   },
   {
-    "name": "アズレーン",
-    "name_en": "Azurobe",
+    "name": {
+      "en": "Azurobe",
+      "hira": "あずれーん",
+      "jp": "アズレーン"
+    },
     "no": 82,
     "stats": {
       "attack": 100,
@@ -1078,8 +1372,11 @@
     "sub": ""
   },
   {
-    "name": "ツンドラー",
-    "name_en": "Cryolinx",
+    "name": {
+      "en": "Cryolinx",
+      "hira": "つんどらー",
+      "jp": "ツンドラー"
+    },
     "no": 83,
     "stats": {
       "attack": 100,
@@ -1089,8 +1386,11 @@
     "sub": ""
   },
   {
-    "name": "ゴクエンオ",
-    "name_en": "Blazehowl",
+    "name": {
+      "en": "Blazehowl",
+      "hira": "ごくえんお",
+      "jp": "ゴクエンオ"
+    },
     "no": 84,
     "stats": {
       "attack": 110,
@@ -1100,8 +1400,11 @@
     "sub": ""
   },
   {
-    "name": "シンエンオ",
-    "name_en": "Blazehowl Noct",
+    "name": {
+      "en": "Blazehowl Noct",
+      "hira": "しんえんお",
+      "jp": "シンエンオ"
+    },
     "no": 84,
     "stats": {
       "attack": 115,
@@ -1111,8 +1414,11 @@
     "sub": "B"
   },
   {
-    "name": "ペコドン",
-    "name_en": "Relaxaurus",
+    "name": {
+      "en": "Relaxaurus",
+      "hira": "ぺこどん",
+      "jp": "ペコドン"
+    },
     "no": 85,
     "stats": {
       "attack": 100,
@@ -1122,8 +1428,11 @@
     "sub": ""
   },
   {
-    "name": "パリピドン",
-    "name_en": "Relaxaurus Lux",
+    "name": {
+      "en": "Relaxaurus Lux",
+      "hira": "ぱりぴどん",
+      "jp": "パリピドン"
+    },
     "no": 85,
     "stats": {
       "attack": 110,
@@ -1133,8 +1442,11 @@
     "sub": "B"
   },
   {
-    "name": "ラブラドン",
-    "name_en": "Broncherry",
+    "name": {
+      "en": "Broncherry",
+      "hira": "らぶらどん",
+      "jp": "ラブラドン"
+    },
     "no": 86,
     "stats": {
       "attack": 90,
@@ -1144,8 +1456,11 @@
     "sub": ""
   },
   {
-    "name": "スプラドン",
-    "name_en": "Broncherry Aqua",
+    "name": {
+      "en": "Broncherry Aqua",
+      "hira": "すぷらどん",
+      "jp": "スプラドン"
+    },
     "no": 86,
     "stats": {
       "attack": 95,
@@ -1155,8 +1470,11 @@
     "sub": "B"
   },
   {
-    "name": "フラリーナ",
-    "name_en": "Petallia",
+    "name": {
+      "en": "Petallia",
+      "hira": "ふらりーな",
+      "jp": "フラリーナ"
+    },
     "no": 87,
     "stats": {
       "attack": 95,
@@ -1166,8 +1484,11 @@
     "sub": ""
   },
   {
-    "name": "ボルカノン",
-    "name_en": "Reptyro",
+    "name": {
+      "en": "Reptyro",
+      "hira": "ぼるかのん",
+      "jp": "ボルカノン"
+    },
     "no": 88,
     "stats": {
       "attack": 105,
@@ -1177,8 +1498,11 @@
     "sub": ""
   },
   {
-    "name": "チルカノン",
-    "name_en": "Ice Reptyro",
+    "name": {
+      "en": "Ice Reptyro",
+      "hira": "ちるかのん",
+      "jp": "チルカノン"
+    },
     "no": 88,
     "stats": {
       "attack": 105,
@@ -1188,8 +1512,11 @@
     "sub": "B"
   },
   {
-    "name": "アルパオー",
-    "name_en": "Kingpaca",
+    "name": {
+      "en": "Kingpaca",
+      "hira": "あるぱおー",
+      "jp": "アルパオー"
+    },
     "no": 89,
     "stats": {
       "attack": 85,
@@ -1199,8 +1526,11 @@
     "sub": ""
   },
   {
-    "name": "アオパオー",
-    "name_en": "Ice Kingpaca",
+    "name": {
+      "en": "Ice Kingpaca",
+      "hira": "あおぱー",
+      "jp": "アオパオー"
+    },
     "no": 89,
     "stats": {
       "attack": 85,
@@ -1210,8 +1540,11 @@
     "sub": "B"
   },
   {
-    "name": "グランモス",
-    "name_en": "Mammorest",
+    "name": {
+      "en": "Mammorest",
+      "hira": "ぐらんもす",
+      "jp": "グランモス"
+    },
     "no": 90,
     "stats": {
       "attack": 85,
@@ -1221,8 +1554,11 @@
     "sub": ""
   },
   {
-    "name": "ブリザモス",
-    "name_en": "Mammorest Cryst",
+    "name": {
+      "en": "Mammorest Cryst",
+      "hira": "ぶりざもす",
+      "jp": "ブリザモス"
+    },
     "no": 90,
     "stats": {
       "attack": 85,
@@ -1232,8 +1568,11 @@
     "sub": "B"
   },
   {
-    "name": "ヒエティ",
-    "name_en": "Wumpo",
+    "name": {
+      "en": "Wumpo",
+      "hira": "ひえてぃ",
+      "jp": "ヒエティ"
+    },
     "no": 91,
     "stats": {
       "attack": 80,
@@ -1243,8 +1582,11 @@
     "sub": ""
   },
   {
-    "name": "トロピティ",
-    "name_en": "Wumpo Botan",
+    "name": {
+      "en": "Wumpo Botan",
+      "hira": "とろぴてぃ",
+      "jp": "トロピティ"
+    },
     "no": 91,
     "stats": {
       "attack": 80,
@@ -1254,8 +1596,11 @@
     "sub": "B"
   },
   {
-    "name": "グラクレス",
-    "name_en": "Warsect",
+    "name": {
+      "en": "Warsect",
+      "hira": "ぐらくれす",
+      "jp": "グラクレス"
+    },
     "no": 92,
     "stats": {
       "attack": 100,
@@ -1265,8 +1610,11 @@
     "sub": ""
   },
   {
-    "name": "ムラクモ",
-    "name_en": "Fenglope",
+    "name": {
+      "en": "Fenglope",
+      "hira": "むらくも",
+      "jp": "ムラクモ"
+    },
     "no": 93,
     "stats": {
       "attack": 110,
@@ -1276,8 +1624,11 @@
     "sub": ""
   },
   {
-    "name": "ヤミトバリ",
-    "name_en": "Felbat",
+    "name": {
+      "en": "Felbat",
+      "hira": "やみとばり",
+      "jp": "ヤミトバリ"
+    },
     "no": 94,
     "stats": {
       "attack": 105,
@@ -1287,8 +1638,11 @@
     "sub": ""
   },
   {
-    "name": "フェスキー",
-    "name_en": "Quivern",
+    "name": {
+      "en": "Quivern",
+      "hira": "ふぇすきー",
+      "jp": "フェスキー"
+    },
     "no": 95,
     "stats": {
       "attack": 100,
@@ -1298,8 +1652,11 @@
     "sub": ""
   },
   {
-    "name": "ボルカイザー",
-    "name_en": "Blazamut",
+    "name": {
+      "en": "Blazamut",
+      "hira": "ぼるかいざー",
+      "jp": "ボルカイザー"
+    },
     "no": 96,
     "stats": {
       "attack": 125,
@@ -1309,8 +1666,11 @@
     "sub": ""
   },
   {
-    "name": "ヘルガルダ",
-    "name_en": "Helzephyr",
+    "name": {
+      "en": "Helzephyr",
+      "hira": "へるがるだ",
+      "jp": "ヘルガルダ"
+    },
     "no": 97,
     "stats": {
       "attack": 125,
@@ -1320,8 +1680,11 @@
     "sub": ""
   },
   {
-    "name": "ジオラーヴァ",
-    "name_en": "Astegon",
+    "name": {
+      "en": "Astegon",
+      "hira": "じおらーヴぁ",
+      "jp": "ジオラーヴァ"
+    },
     "no": 98,
     "stats": {
       "attack": 125,
@@ -1331,8 +1694,11 @@
     "sub": ""
   },
   {
-    "name": "デスティング",
-    "name_en": "Menasting",
+    "name": {
+      "en": "Menasting",
+      "hira": "ですてぃんぐ",
+      "jp": "デスティング"
+    },
     "no": 99,
     "stats": {
       "attack": 100,
@@ -1342,8 +1708,11 @@
     "sub": ""
   },
   {
-    "name": "アヌビス",
-    "name_en": "Anubis",
+    "name": {
+      "en": "Anubis",
+      "hira": "あぬびす",
+      "jp": "アヌビス"
+    },
     "no": 100,
     "stats": {
       "attack": 130,
@@ -1353,8 +1722,11 @@
     "sub": ""
   },
   {
-    "name": "レヴィドラ",
-    "name_en": "Jormuntide",
+    "name": {
+      "en": "Jormuntide",
+      "hira": "れヴぃどら",
+      "jp": "レヴィドラ"
+    },
     "no": 101,
     "stats": {
       "attack": 120,
@@ -1364,8 +1736,11 @@
     "sub": ""
   },
   {
-    "name": "アグニドラ",
-    "name_en": "Jormuntide Ignis",
+    "name": {
+      "en": "Jormuntide Ignis",
+      "hira": "あぐにどら",
+      "jp": "アグニドラ"
+    },
     "no": 101,
     "stats": {
       "attack": 130,
@@ -1375,8 +1750,11 @@
     "sub": "B"
   },
   {
-    "name": "スザク",
-    "name_en": "Suzaku",
+    "name": {
+      "en": "Suzaku",
+      "hira": "すざく",
+      "jp": "スザク"
+    },
     "no": 102,
     "stats": {
       "attack": 105,
@@ -1386,8 +1764,11 @@
     "sub": ""
   },
   {
-    "name": "シヴァ",
-    "name_en": "Suzaku Aqua",
+    "name": {
+      "en": "Suzaku Aqua",
+      "hira": "しヴぁ",
+      "jp": "シヴァ"
+    },
     "no": 102,
     "stats": {
       "attack": 105,
@@ -1397,8 +1778,11 @@
     "sub": "B"
   },
   {
-    "name": "エレパンダ",
-    "name_en": "Grizzbolt",
+    "name": {
+      "en": "Grizzbolt",
+      "hira": "えれぱんだ",
+      "jp": "エレパンダ"
+    },
     "no": 103,
     "stats": {
       "attack": 100,
@@ -1408,8 +1792,11 @@
     "sub": ""
   },
   {
-    "name": "リリクイン",
-    "name_en": "Lyleen",
+    "name": {
+      "en": "Lyleen",
+      "hira": "りりくいん",
+      "jp": "リリクイン"
+    },
     "no": 104,
     "stats": {
       "attack": 110,
@@ -1419,8 +1806,11 @@
     "sub": ""
   },
   {
-    "name": "ルナクイン",
-    "name_en": "Lyleen Noct",
+    "name": {
+      "en": "Lyleen Noct",
+      "hira": "るなくいん",
+      "jp": "ルナクイン"
+    },
     "no": 104,
     "stats": {
       "attack": 110,
@@ -1430,8 +1820,11 @@
     "sub": "B"
   },
   {
-    "name": "ホルス",
-    "name_en": "Faleris",
+    "name": {
+      "en": "Faleris",
+      "hira": "ほるす",
+      "jp": "ホルス"
+    },
     "no": 105,
     "stats": {
       "attack": 105,
@@ -1441,8 +1834,11 @@
     "sub": ""
   },
   {
-    "name": "ボルゼクス",
-    "name_en": "Orserk",
+    "name": {
+      "en": "Orserk",
+      "hira": "ぼるぜくす",
+      "jp": "ボルゼクス"
+    },
     "no": 106,
     "stats": {
       "attack": 130,
@@ -1452,8 +1848,11 @@
     "sub": ""
   },
   {
-    "name": "ゼノグリフ",
-    "name_en": "Shadowbeak",
+    "name": {
+      "en": "Shadowbeak",
+      "hira": "ぜのぐりふ",
+      "jp": "ゼノグリフ"
+    },
     "no": 107,
     "stats": {
       "attack": 120,
@@ -1463,8 +1862,11 @@
     "sub": ""
   },
   {
-    "name": "セイントール",
-    "name_en": "Paladius",
+    "name": {
+      "en": "Paladius",
+      "hira": "せいんとーる",
+      "jp": "セイントール"
+    },
     "no": 108,
     "stats": {
       "attack": 120,
@@ -1474,8 +1876,11 @@
     "sub": ""
   },
   {
-    "name": "ベイントール",
-    "name_en": "Necromus",
+    "name": {
+      "en": "Necromus",
+      "hira": "べいんとーる",
+      "jp": "ベイントール"
+    },
     "no": 109,
     "stats": {
       "attack": 145,
@@ -1485,8 +1890,11 @@
     "sub": ""
   },
   {
-    "name": "グレイシャル",
-    "name_en": "Frostallion",
+    "name": {
+      "en": "Frostallion",
+      "hira": "ぐれいしゃる",
+      "jp": "グレイシャル"
+    },
     "no": 110,
     "stats": {
       "attack": 140,
@@ -1496,8 +1904,11 @@
     "sub": ""
   },
   {
-    "name": "グレイシャドウ",
-    "name_en": "Frostallion Noct",
+    "name": {
+      "en": "Frostallion Noct",
+      "hira": "ぐれいしゃどう",
+      "jp": "グレイシャドウ"
+    },
     "no": 110,
     "stats": {
       "attack": 140,
@@ -1507,8 +1918,11 @@
     "sub": "B"
   },
   {
-    "name": "ジェッドラン",
-    "name_en": "Jetragon",
+    "name": {
+      "en": "Jetragon",
+      "hira": "じぇっどらん",
+      "jp": "ジェッドラン"
+    },
     "no": 111,
     "stats": {
       "attack": 140,

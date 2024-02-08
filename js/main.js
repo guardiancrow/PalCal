@@ -4,7 +4,7 @@ $(document).ready(function(){
     var getStats = function(name) {
         var stats = null;
         $.each(paldex, function(idx, data) {
-            if (name == data['name'])
+            if (name == data['name']['jp'])
                 stats = data['stats'];
         });
         return stats;
@@ -223,9 +223,6 @@ $(document).ready(function(){
     }
 
     var renderStackedBar = function(potentialtable, potential) {
-        //var stackedbar = $("#hpstackedbar");
-        //stackedbar.empty();
-
         var stackedbar = potentialtable;
 
         var potential_iv = {hp:{min:0,mid:0,max:0}, atk:{min:0,mid:0,max:0}, def:{min:0,mid:0,max:0}};
@@ -243,7 +240,6 @@ $(document).ready(function(){
         var lower = potential_iv.hp.min;
         var mid = potential_iv.hp.max - potential_iv.hp.min;
 
-        //stackedbar.append('<h3>個体値イメージ</h3>');
         stackedbar.append('<div class="progress-stacked">'+
             '<div class="progress" role="progressbar" aria-valuenow="' + lower + '" aria-valuemin="0" aria-valuemax="100" style="width:' + lower + '%"><div class="progress-bar bg-success overflow-visible text-dark">HP ' + Math.round(potential_iv.hp.mid * 100) / 100 + '％</div></div>'+
             '<div class="progress" role="progressbar" aria-valuenow="' + mid + '" aria-valuemin="0" aria-valuemax="100" style="width:' + mid + '%"><div class="progress-bar progress-bar-striped progress-bar-animated bg-success"></div></div></div>');
@@ -251,18 +247,12 @@ $(document).ready(function(){
         lower = potential_iv.atk.min;
         mid = potential_iv.atk.max - potential_iv.atk.min;
 
-        //stackedbar = $("#atkstackedbar");
-        //stackedbar.empty();
-
         stackedbar.append('<div class="progress-stacked">'+
             '<div class="progress" aria-valuenow="' + lower + '" aria-valuemin="0" aria-valuemax="100" style="width:' + lower + '%"><div class="progress-bar bg-danger overflow-visible text-dark">攻撃 ' + Math.round(potential_iv.atk.mid * 100) / 100 + '％</div></div>'+
             '<div class="progress" aria-valuenow="' + mid + '" aria-valuemin="0" aria-valuemax="100" style="width:' + mid + '%"><div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"></div></div></div>');
 
         lower = potential_iv.def.min;
         mid = potential_iv.def.max - potential_iv.def.min;
-
-        //stackedbar = $("#defstackedbar");
-        //stackedbar.empty();
 
         stackedbar.append('<div class="progress-stacked">'+
             '<div class="progress" aria-valuenow="' + lower + '" aria-valuemin="0" aria-valuemax="100" style="width:' + lower + '%"><div class="progress-bar bg-warning overflow-visible text-dark">防御 ' + Math.round(potential_iv.def.mid * 100) / 100 + '％</div></div>'+
@@ -356,8 +346,9 @@ $(document).ready(function(){
             var names = [];
             var termed = new RegExp('^(' + request.term + ')');
             $.each(paldex, function(idx, data) {
-                if (data['name'].match(termed)) {
-                    names.push(data['name']);
+                if (data['name']['jp'].match(termed) || data['name']['hira'].match(termed) ||
+                        data['name']['en'].match(termed) || data['name']['en'].toLowerCase().match(termed)) {
+                    names.push(data['name']['jp']);
                 }
             });
             response(names);
@@ -379,7 +370,7 @@ $(document).ready(function(){
                 selectName.empty();
                 selectName.hide();
                 $.each(paldex, function(idx, value) {
-                    var name = value['name'];
+                    var name = value['name']['jp'];
                     selectName.append($("<option>").val(name).text(name));
                 })
                 //selectName.show(0);
