@@ -10,12 +10,61 @@ $(document).ready(function(){
         return stats;
     }
 
+    var getQueries = function() {
+        if (location.search.length == 0 || location.search.length > 2100) {
+            return null;
+        }
+        var queryhash = {};
+        var queries = location.search.replace("?", "").split("&");
+        $.each(queries, function(idx, value) {
+            var ary = value.split("=");
+            queryhash[ary[0]] = ary[1];
+        })
+        return queryhash;
+    }
+
+    var applyQueries = function() {
+        var queries = getQueries();
+        if (queries) {
+            if (queries["name"]) {
+                var t = decodeURIComponent(queries["name"]);
+                var found = false;
+                $.each(paldex, function(idx, value) {
+                    if (value['name']['jp'] == t) {
+                        found = true;
+                    }
+                })
+                if (found) {
+                    $('input[name="name"]').val(t);
+                    $('#select-name').val(t);
+                }
+            }
+            if (queries["lv"] && queries["lv"] > 0 && queries["lv"] <= 50) {
+                $('input[name="lv"]').val(queries["lv"]);
+            }
+            if (queries["hp"] && queries["hp"] > 0 && queries["hp"] <= 15000) {
+                $('input[name="hp"]').val(queries["hp"]);
+            }
+            if (queries["atk"] && queries["atk"] > 0 && queries["atk"] <= 1000) {
+                $('input[name="atk"]').val(queries["atk"]);
+            }
+            if (queries["def"] && queries["def"] > 0 && queries["def"] <= 1000) {
+                $('input[name="def"]').val(queries["def"]);
+            }
+            if (queries["con"] && queries["con"] >= 0 && queries["con"] <= 4) {
+                $('input[name="condenser"]').val(queries["con"]);
+            }
+        }
+    }
+
     var checkInputParams = function() {
         if (getStats($('input[name="name"]').val()) == null ||
             !$.isNumeric($('input[name="lv"]').val()) ||
             !$.isNumeric($('input[name="hp"]').val()) ||
             !$.isNumeric($('input[name="atk"]').val()) ||
-            !$.isNumeric($('input[name="def"]').val())) {
+            !$.isNumeric($('input[name="def"]').val()) ||
+            !$.isNumeric($('input[name="condenser"]').val())
+            ) {
             return false;
         }
 
@@ -39,11 +88,12 @@ $(document).ready(function(){
                 return String.fromCharCode(s.charCodeAt(0)-0xFEE0)
             })
         );
-        $('input[name="condener"]').val(
-            $('input[name="condener"]').val().replace(/[０-９]/g,function(s){
+        $('input[name="condenser"]').val(
+            $('input[name="condenser"]').val().replace(/[０-９]/g,function(s){
                 return String.fromCharCode(s.charCodeAt(0)-0xFEE0)
             })
         );
+        /*
         $('input[name="hp_soul"]').val(
             $('input[name="hp_soul"]').val().replace(/[０-９]/g,function(s){
                 return String.fromCharCode(s.charCodeAt(0)-0xFEE0)
@@ -59,6 +109,7 @@ $(document).ready(function(){
                 return String.fromCharCode(s.charCodeAt(0)-0xFEE0)
             })
         );
+        */
         return true;
     }
 
@@ -144,8 +195,8 @@ $(document).ready(function(){
         tbody.append(row);
 
         var text = $('<div>');
-        text.append('<p class="small text-right text-muted">入力値の小数点以下が丸められているので見かけ上の個体値は一意に定まらないことがほとんどです</p>');
-        text.append('<p class="small text-right text-muted">レベルが上がると範囲が狭くなり特定しやすくなります</p>');
+        text.append('<p class="small fst-normal">入力値の小数点以下が丸められているので見かけ上の個体値は一意に定まらないことがほとんどです</p>');
+        text.append('<p class="small fst-normal">レベルが上がると範囲が狭くなり特定しやすくなります</p>');
 
         table.append(thead);
 		table.append(tbody);
@@ -212,7 +263,7 @@ $(document).ready(function(){
         }
 
         var text = $('<div>');
-        text.append('<p class="small text-right text-muted">最小値・最大値は個体値がそれぞれ0%・100%の値になります</p>');
+        text.append('<p class="small fst-normal">最小値・最大値は個体値がそれぞれ0%・100%の値になります</p>');
 
         table.append(thead);
 		table.append(tbody);
@@ -220,6 +271,19 @@ $(document).ready(function(){
         totaltable.append(header);
         totaltable.append(responsive);
         totaltable.append(text);
+    }
+
+    var renderShareURI = function(input) {
+        var uristring = location.origin + location.pathname + '?name=' + input.name + '&lv=' +
+        input.level + '&hp=' + input.hp + '&atk=' + input.attack + '&def=' + input.defense +
+        '&con=' + input.condenser;
+    
+        var thisurl = $('<p class="small fst-normal">計算結果共有用リンク：<a href="' + encodeURI(uristring) + '">' + uristring + '</a></p>');
+
+        var shareuri = $("#shareuri");
+		shareuri.empty();
+        shareuri.append($('<hr>'));
+        shareuri.append(thisurl);
     }
 
     var renderStackedBar = function(potentialtable, potential) {
@@ -297,6 +361,7 @@ $(document).ready(function(){
 
         renderPotentialTable(potential);
         renderTotalTable(input, total);
+        renderShareURI(input);
     })
 
     $('input[name="lv"]').change(function() {
@@ -374,6 +439,13 @@ $(document).ready(function(){
                     selectName.append($("<option>").val(name).text(name));
                 })
                 //selectName.show(0);
+
+                if(getQueries()) {
+                    applyQueries();
+                    if(checkInputParams()){
+                        $('#calcIV').click();
+                    }
+                }
             }
         }
         xhr.onerror = function (e) {

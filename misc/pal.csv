@@ -1,139 +1,140 @@
-ï»¿no,sub,name.jp,name.en,stats.hp,stats.attack,stats.defense,name.hira
-1,,ãƒ¢ã‚³ãƒ­ãƒ³,Lamball,70,70,70,ã‚‚ã“ã‚ã‚“
-2,,ãƒ„ãƒƒãƒ‘ãƒ‹ãƒ£ãƒ³,Cattiva,70,70,70,ã¤ã£ã±ã«ã‚ƒã‚“
-3,,ã‚¿ãƒžã‚³ãƒƒã‚³,Chikipi,60,60,60,ãŸã¾ã“ã£ã“
-4,,ã‚¯ãƒ«ãƒªã‚¹,Lifmunk,75,70,70,ãã‚‹ã‚Šã™
-5,,ã‚­ãƒ„ãƒãƒ“,Foxparks,65,75,70,ãã¤ã­ã³
-6,,ã‚«ãƒ¢ãƒŽã‚¹ã‚±,Fuack,60,80,60,ã‹ã‚‚ã®ã™ã‘
-7,,ãƒœãƒ«ãƒˆãƒ©,Sparkit,60,75,70,ã¼ã‚‹ã¨ã‚‰
-8,,ã‚¨ãƒ†ãƒƒãƒ‘,Tanzee,80,70,70,ãˆã¦ã£ã±
-9,,ãƒ’ãƒŽã‚³ã‚¸ã‚«,Rooby,75,70,75,ã²ã®ã“ã˜ã‹
-10,,ãƒšãƒ³ã‚¿ãƒž,Pengullet,70,75,70,ãºã‚“ãŸã¾
-11,,ã‚­ãƒ£ãƒ—ãƒšãƒ³,Penking,95,95,95,ãã‚ƒã·ãºã‚“
-12,,ãƒ‘ãƒã‚°ãƒª,Jolthog,70,75,70,ã±ã¡ãã‚Š
-12,B,ã‚³ãƒã‚°ãƒª,Jolthog Cryst,70,75,80,ã“ã¡ãã‚Š
-13,,ãƒŠã‚¨ãƒ¢ãƒ,Gumoss,70,70,70,ãªãˆã‚‚ã¡
-13,B,ãƒŠã‚¨ãƒ¢ãƒ(ç‰¹æ®Š),Gumoss (Special),70,70,70,ãªãˆã‚‚ã¡ï¼ˆã¨ãã—ã‚…ï¼‰
-14,,ã‚¿ãƒžãƒ¢,Vixy,70,70,70,ãŸã¾ã‚‚
-15,,ãƒ›ã‚¦ãƒ­ãƒƒã‚¯,Hoocrates,70,70,80,ã»ã†ã‚ã£ã
-16,,ãƒãƒ§ãƒ­ã‚¾ã‚¦,Teafant,70,60,70,ã¡ã‚‡ã‚ãžã†
-17,,ãƒ³ãƒ€ã‚³ã‚¢ãƒ©,Depresso,70,70,70,ã‚“ã ã“ã‚ã‚‰
-18,,ãƒŸãƒ«ãƒ•ã‚£ãƒ¼,Cremis,70,70,75,ã¿ã‚‹ãµãƒãƒ¼
-19,,ãƒãƒ ãƒ©ãƒ ,Daedream,70,75,60,ã­ã‚€ã‚‰ã‚€
-20,,ã‚¤ãƒŽãƒœã‚¦,Rushoar,80,70,70,ã„ã®ã¼ã†
-21,,ãƒ«ãƒŠãƒ†ã‚£,Nox,75,85,70,ã‚‹ãªã¦ãƒ
-22,,ãƒ¢ã‚°ãƒ«ãƒ³,Fuddler,65,80,50,ã‚‚ãã‚‹ã‚“
-23,,ãƒ¤ãƒŸã‚¤ã‚«,Killamari,60,60,70,ã‚„ã¿ã„ã‹
-24,,ãƒ‹ãƒ£ã‚ªãƒ†ãƒˆ,Mau,70,60,70,ã«ã‚ƒãŠã¦ã¨
-24,B,ãƒãƒ«ãƒ†ãƒˆ,Mau Cryst,70,65,70,ã¡ã‚‹ã¦ã¨
-25,,ãƒ«ãƒŸã‚«ã‚¤ãƒˆ,Celaray,80,70,80,ã‚‹ã¿ã‹ã„ã¨
-26,,ã‚¬ã‚¦ãƒ«ãƒ•,Direhowl,80,90,75,ãŒã†ã‚‹ãµ
-27,,ã‚¯ãƒ«ãƒƒãƒˆãƒª,Tocotoco,60,75,70,ãã‚‹ã£ã¨ã‚Š
-28,,ãƒãƒ—ãƒªãƒ¼ãƒŠ,Flopie,75,65,70,ã½ã·ã‚Šãƒ¼ãª
-29,,ãƒŸãƒ«ã‚«ãƒ«ãƒ“,Mozzarina,90,50,80,ã¿ã‚‹ã‹ã‚‹ã³
-30,,ã‚¤ãƒãƒ©ãƒ’ãƒ¡,Bristla,80,80,80,ã„ã°ã‚‰ã²ã‚
-31,,ã‚·ãƒ£ãƒ¼ã‚­ãƒƒãƒ‰,Gobfin,90,90,75,ã—ã‚ƒãƒ¼ãã£ã©
-31,B,ã‚·ãƒ£ãƒ¼ãƒžãƒ³ãƒ€ãƒ¼,Gobfin Ignis,90,90,75,ã—ã‚ƒãƒ¼ã¾ã‚“ã ãƒ¼
-32,,ã‚·ãƒ¡ãƒŠãƒ¯,Hangyu,80,70,70,ã—ã‚ãªã‚
-32,B,ã‚ªãƒã‚±ãƒŠãƒ¯,Hangyu Cryst,80,80,70,ãŠã°ã‘ãªã‚
-33,,ã‚µã‚µã‚¾ãƒ¼,Mossanda,100,90,90,ã•ã•ãžãƒ¼
-33,B,ãƒ©ã‚¤ã‚¾ãƒ¼,Mossanda Lux,100,100,100,ã‚‰ã„ãžãƒ¼
-34,,ãƒ¡ãƒªãƒãƒƒãƒ—,Woolipop,70,70,90,ã‚ã‚Šã½ã£ã·
-35,,ãƒ™ãƒªã‚´ãƒ¼ãƒˆ,Caprity,100,70,90,ã¹ã‚Šã”ãƒ¼ã¨
-36,,ãƒ¡ãƒ«ãƒ‘ã‚«,Melpaca,90,75,90,ã‚ã‚‹ã±ã‹
-37,,ãƒ„ãƒŽã‚¬ãƒŸ,Eikthyrdeer,95,80,80,ã¤ã®ãŒã¿
-37,B,ãƒ¤ãƒžã‚¬ãƒŸ,Eikthyrdeer Terra,95,80,80,ã‚„ã¾ãŒã¿
-38,,ãƒ›ãƒ¼ã‚¯ã‚¦ã‚£ãƒ³,Nitewing,100,95,80,ã»ãƒ¼ãã†ãƒã‚“
-39,,ãƒ’ãƒ¡ã‚¦ã‚µ,Ribunny,75,65,70,ã²ã‚ã†ã•
-40,,ãƒ˜ãƒ«ã‚´ãƒ¼ãƒˆ,Incineram,95,100,85,ã¸ã‚‹ã”ãƒ¼ã¨
-40,B,ã‚¢ãƒ“ã‚¹ã‚´ãƒ¼ãƒˆ,Incineram Noct,95,105,85,ã‚ã³ã™ã”ãƒ¼ã¨
-41,,ãƒ‘ãƒ”ãƒ†ãƒ•,Cinnamoth,70,80,80,ã±ã´ã¦ãµ
-42,,ãƒ–ãƒ«ãƒ•ã‚§ãƒ«ãƒŽ,Arsox,85,95,95,ã¶ã‚‹ãµã‡ã‚‹ã®
-43,,ãƒˆãƒ‰ãƒ‰ãƒ‰ãƒ³,Dumud,100,70,95,ã¨ã©ã©ã©ã‚“
-44,,ãƒžã‚¹ã‚¯ãƒ­ã‚¦,Cawgnito,75,95,80,ã¾ã™ãã‚ã†
-45,,ãƒ€ãƒªã‚¶ãƒ¼ãƒ‰,Leezpunk,80,80,50,ã ã‚Šã–ãƒ¼ã©
-45,B,ãƒãƒªã‚¶ãƒ¼ãƒ‰,Leezpunk Ignis,80,80,50,ã¡ã‚Šã–ãƒ¼ã©
-46,,ãƒ„ã‚­ã‚«ã‚²,Loupmoon,80,100,80,ã¤ãã‹ã’
-47,,ã‚¨ã‚¢ãƒ ãƒ«ã‚°,Galeclaw,75,85,60,ãˆã‚ã‚€ã‚‹ã
-48,,ãƒ•ã‚§ã‚¶ãƒ¼ãƒ­,Robinquill,90,105,80,ãµã‡ã–ãƒ¼ã‚
-48,B,ã‚µãƒ³ãƒ‰ãƒ­,Robinquill Terra,90,105,80,ã•ã‚“ã©ã‚
-49,,ã‚´ãƒªãƒ¬ã‚¤ã‚¸,Gorirat,90,95,90,ã”ã‚Šã‚Œã„ã˜
-50,,ãƒ“ãƒ¼ãƒŠã‚¤ãƒˆ,Beegarde,80,90,90,ã³ãƒ¼ãªã„ã¨
-51,,ã‚¯ã‚¤ãƒ³ãƒ“ãƒ¼ãƒŠ,Elizabee,90,105,100,ãã„ã‚“ã³ãƒ¼ãª
-52,,ãƒ‹ãƒ£ãƒ³ã‚®ãƒžãƒª,Grintale,110,80,80,ã«ã‚ƒã‚“ãŽã¾ã‚Š
-53,,ã‚³ãƒ¢ãƒƒãƒ—,Swee,60,60,60,ã“ã‚‚ã£ã·
-54,,ãƒ‰ãƒ³ãƒ¢ãƒƒãƒ—,Sweepa,100,90,90,ã©ã‚“ã‚‚ã£ã·
-55,,ã‚ªã‚³ãƒãƒ§,Chillet,90,80,80,ãŠã“ã¡ã‚‡
-56,,ãƒ©ã‚¤ã‚³ãƒ¼ãƒ³,Univolt,80,105,105,ã‚‰ã„ã“ãƒ¼ã‚“
-57,,ãƒ•ãƒ–ã‚­ãƒ„ãƒ,Foxcicle,90,95,105,ãµã¶ãã¤ã­
-58,,ã‚µãƒ©ãƒ–ãƒ¬ã‚¤ã‚º,Pyrin,100,95,90,ã•ã‚‰ã¶ã‚Œã„ãš
-58,B,ã‚µãƒ©ãƒ–ãƒ©ãƒƒã‚¯,Pyrin Noct,100,95,90,ã•ã‚‰ã¶ã‚‰ã£ã
-59,,ãƒ„ãƒ©ãƒ©ã‚¸ã‚«,Reindrix,100,85,110,ã¤ã‚‰ã‚‰ã˜ã‹
-60,,ã‚¤ãƒŒã‚ºãƒž,Rayhound,90,100,80,ã„ã¬ãšã¾
-61,,ã‚·ãƒ©ãƒŒã‚¤,Kitsun,100,115,100,ã—ã‚‰ã¬ã„
-62,,ã‚«ãƒŸãƒŠãƒ©ã‚·,Dazzi,70,80,70,ã‹ã¿ãªã‚‰ã—
-63,,ãƒŸã‚¹ãƒ†ãƒªã‚¢,Lunaris,90,100,90,ã¿ã™ã¦ã‚Šã‚
-64,,ã‚¢ãƒ­ã‚¢ãƒªãƒ¥ãƒ¼,Dinossom,110,85,90,ã‚ã‚ã‚ã‚Šã‚…ãƒ¼
-64,B,ãƒ“ãƒªãƒ“ãƒªãƒ¥ãƒ¼,Dinossom Lux,110,90,90,ã³ã‚Šã³ã‚Šã‚…ãƒ¼
-65,,ã‚·ãƒ¼ãƒšãƒ³ãƒˆ,Surfent,90,90,80,ã—ãƒ¼ãºã‚“ã¨
-65,B,ã‚¹ãƒŠãƒšãƒ³ãƒˆ,Surfent Terra,90,90,100,ã™ãªãºã‚“ã¨
-66,,ã‚½ãƒ«ãƒ¬ã‚¤ã‚¹,Maraith,75,105,80,ãã‚‹ã‚Œã„ã™
-67,,ãƒ‰ãƒªã‚¿ã‚¹,Digtoise,80,95,120,ã©ã‚ŠãŸã™
-68,,ãƒ‹ãƒ£ãƒ³ãƒãƒƒãƒˆ,Tombat,95,95,80,ã«ã‚ƒã‚“ã°ã£ã¨
-69,,ãƒ©ãƒ–ãƒžãƒ³ãƒ€ãƒ¼,Lovander,120,70,70,ã‚‰ã¶ã¾ã‚“ã ãƒ¼
-70,,ãƒ©ãƒ´ã‚£,Flambelle,60,70,80,ã‚‰ãƒ´ãƒ
-71,,ã‚«ãƒãƒãƒ‰ãƒª,Vanwyrm,90,115,90,ã‹ã°ã­ã©ã‚Š
-71,B,ã‚·ãƒ­ã‚«ãƒãƒ,Vanwyrm Cryst,90,120,95,ã—ã‚ã‹ã°ã­
-72,,ãƒ„ã‚¸ã‚®ãƒª,Bushi,80,125,80,ã¤ã˜ãŽã‚Š
-73,,ãƒ©ã‚¤ãƒãƒ¼ãƒ‰,Beakon,105,115,80,ã‚‰ã„ã°ãƒ¼ã©
-74,,ã‚¤ã‚°ãƒ‹ã‚¯ã‚¹,Ragnahawk,95,105,120,ã„ãã«ãã™
-75,,ã‚¯ãƒ¬ãƒ¡ãƒ¼ã‚ª,Katress,90,105,90,ãã‚Œã‚ãƒ¼ãŠ
-76,,ãƒ•ã‚©ãƒ¬ãƒ¼ãƒŠ,Wixen,90,110,80,ãµã‰ã‚Œãƒ¼ãª
-77,,ãƒ©ãƒ™ãƒ­ãƒƒãƒˆ,Verdash,90,115,90,ã‚‰ã¹ã‚ã£ã¨
-78,,ãƒ´ã‚£ã‚ªãƒ¬ãƒƒã‚¿,Vaelet,100,100,120,ãƒ´ãƒãŠã‚Œã£ãŸ
-79,,ã‚·ãƒ«ã‚­ãƒ¼ãƒŒ,Sibelyx,110,90,100,ã—ã‚‹ããƒ¼ã¬
-80,,ã‚·ãƒ«ãƒ•ã‚£ã‚¢,Elphidran,110,80,90,ã—ã‚‹ãµãƒã‚
-80,B,ã‚·ãƒ«ãƒ†ã‚£ã‚¢,Elphidran Aqua,115,80,95,ã—ã‚‹ã¦ãƒã‚
-81,,ã‚±ãƒ«ãƒ”ã‚¹,Kelpsea,70,70,70,ã‘ã‚‹ã´ã™
-81,B,ãƒžã‚°ãƒ”ã‚¹,Kelpsea Ignis,70,70,70,ã¾ãã´ã™
-82,,ã‚¢ã‚ºãƒ¬ãƒ¼ãƒ³,Azurobe,110,100,100,ã‚ãšã‚Œãƒ¼ã‚“
-83,,ãƒ„ãƒ³ãƒ‰ãƒ©ãƒ¼,Cryolinx,100,100,110,ã¤ã‚“ã©ã‚‰ãƒ¼
-84,,ã‚´ã‚¯ã‚¨ãƒ³ã‚ª,Blazehowl,105,110,80,ã”ããˆã‚“ãŠ
-84,B,ã‚·ãƒ³ã‚¨ãƒ³ã‚ª,Blazehowl Noct,105,115,80,ã—ã‚“ãˆã‚“ãŠ
-85,,ãƒšã‚³ãƒ‰ãƒ³,Relaxaurus,110,100,70,ãºã“ã©ã‚“
-85,B,ãƒ‘ãƒªãƒ”ãƒ‰ãƒ³,Relaxaurus Lux,110,110,75,ã±ã‚Šã´ã©ã‚“
-86,,ãƒ©ãƒ–ãƒ©ãƒ‰ãƒ³,Broncherry,120,90,100,ã‚‰ã¶ã‚‰ã©ã‚“
-86,B,ã‚¹ãƒ—ãƒ©ãƒ‰ãƒ³,Broncherry Aqua,120,95,100,ã™ã·ã‚‰ã©ã‚“
-87,,ãƒ•ãƒ©ãƒªãƒ¼ãƒŠ,Petallia,100,95,100,ãµã‚‰ã‚Šãƒ¼ãª
-88,,ãƒœãƒ«ã‚«ãƒŽãƒ³,Reptyro,110,105,120,ã¼ã‚‹ã‹ã®ã‚“
-88,B,ãƒãƒ«ã‚«ãƒŽãƒ³,Ice Reptyro,110,105,130,ã¡ã‚‹ã‹ã®ã‚“
-89,,ã‚¢ãƒ«ãƒ‘ã‚ªãƒ¼,Kingpaca,120,85,90,ã‚ã‚‹ã±ãŠãƒ¼
-89,B,ã‚¢ã‚ªãƒ‘ã‚ªãƒ¼,Ice Kingpaca,120,85,90,ã‚ãŠã±ãƒ¼
-90,,ã‚°ãƒ©ãƒ³ãƒ¢ã‚¹,Mammorest,150,85,90,ãã‚‰ã‚“ã‚‚ã™
-90,B,ãƒ–ãƒªã‚¶ãƒ¢ã‚¹,Mammorest Cryst,150,85,90,ã¶ã‚Šã–ã‚‚ã™
-91,,ãƒ’ã‚¨ãƒ†ã‚£,Wumpo,140,80,100,ã²ãˆã¦ãƒ
-91,B,ãƒˆãƒ­ãƒ”ãƒ†ã‚£,Wumpo Botan,140,80,110,ã¨ã‚ã´ã¦ãƒ
-92,,ã‚°ãƒ©ã‚¯ãƒ¬ã‚¹,Warsect,120,100,120,ãã‚‰ãã‚Œã™
-93,,ãƒ ãƒ©ã‚¯ãƒ¢,Fenglope,110,110,90,ã‚€ã‚‰ãã‚‚
-94,,ãƒ¤ãƒŸãƒˆãƒãƒª,Felbat,100,105,110,ã‚„ã¿ã¨ã°ã‚Š
-95,,ãƒ•ã‚§ã‚¹ã‚­ãƒ¼,Quivern,105,100,100,ãµã‡ã™ããƒ¼
-96,,ãƒœãƒ«ã‚«ã‚¤ã‚¶ãƒ¼,Blazamut,100,125,120,ã¼ã‚‹ã‹ã„ã–ãƒ¼
-97,,ãƒ˜ãƒ«ã‚¬ãƒ«ãƒ€,Helzephyr,100,125,100,ã¸ã‚‹ãŒã‚‹ã 
-98,,ã‚¸ã‚ªãƒ©ãƒ¼ãƒ´ã‚¡,Astegon,100,125,125,ã˜ãŠã‚‰ãƒ¼ãƒ´ã
-99,,ãƒ‡ã‚¹ãƒ†ã‚£ãƒ³ã‚°,Menasting,100,100,130,ã§ã™ã¦ãƒã‚“ã
-100,,ã‚¢ãƒŒãƒ“ã‚¹,Anubis,120,130,100,ã‚ã¬ã³ã™
-101,,ãƒ¬ãƒ´ã‚£ãƒ‰ãƒ©,Jormuntide,130,120,100,ã‚Œãƒ´ãƒã©ã‚‰
-101,B,ã‚¢ã‚°ãƒ‹ãƒ‰ãƒ©,Jormuntide Ignis,130,130,100,ã‚ãã«ã©ã‚‰
-102,,ã‚¹ã‚¶ã‚¯,Suzaku,120,105,105,ã™ã–ã
-102,B,ã‚·ãƒ´ã‚¡,Suzaku Aqua,125,105,105,ã—ãƒ´ã
-103,,ã‚¨ãƒ¬ãƒ‘ãƒ³ãƒ€,Grizzbolt,105,100,100,ãˆã‚Œã±ã‚“ã 
-104,,ãƒªãƒªã‚¯ã‚¤ãƒ³,Lyleen,110,110,105,ã‚Šã‚Šãã„ã‚“
-104,B,ãƒ«ãƒŠã‚¯ã‚¤ãƒ³,Lyleen Noct,110,110,115,ã‚‹ãªãã„ã‚“
-105,,ãƒ›ãƒ«ã‚¹,Faleris,100,105,110,ã»ã‚‹ã™
-106,,ãƒœãƒ«ã‚¼ã‚¯ã‚¹,Orserk,100,130,100,ã¼ã‚‹ãœãã™
-107,,ã‚¼ãƒŽã‚°ãƒªãƒ•,Shadowbeak,120,120,140,ãœã®ãã‚Šãµ
-108,,ã‚»ã‚¤ãƒ³ãƒˆãƒ¼ãƒ«,Paladius,130,120,145,ã›ã„ã‚“ã¨ãƒ¼ã‚‹
-109,,ãƒ™ã‚¤ãƒ³ãƒˆãƒ¼ãƒ«,Necromus,130,145,120,ã¹ã„ã‚“ã¨ãƒ¼ã‚‹
-110,,ã‚°ãƒ¬ã‚¤ã‚·ãƒ£ãƒ«,Frostallion,140,140,120,ãã‚Œã„ã—ã‚ƒã‚‹
-110,B,ã‚°ãƒ¬ã‚¤ã‚·ãƒ£ãƒ‰ã‚¦,Frostallion Noct,140,140,135,ãã‚Œã„ã—ã‚ƒã©ã†
-111,,ã‚¸ã‚§ãƒƒãƒ‰ãƒ©ãƒ³,Jetragon,110,140,110,ã˜ã‡ã£ã©ã‚‰ã‚“
+no,sub,name.jp,name.en,stats.hp,stats.attack,stats.defense,name.hira
+1,,ƒ‚ƒRƒƒ“,Lamball,70,70,70,‚à‚±‚ë‚ñ
+2,,ƒcƒbƒpƒjƒƒƒ“,Cattiva,70,70,70,‚Â‚Á‚Ï‚É‚á‚ñ
+3,,ƒ^ƒ}ƒRƒbƒR,Chikipi,60,60,60,‚½‚Ü‚±‚Á‚±
+4,,ƒNƒ‹ƒŠƒX,Lifmunk,75,70,70,‚­‚é‚è‚·
+5,,ƒLƒcƒlƒr,Foxparks,65,75,70,‚«‚Â‚Ë‚Ñ
+6,,ƒJƒ‚ƒmƒXƒP,Fuack,60,80,60,‚©‚à‚Ì‚·‚¯
+7,,ƒ{ƒ‹ƒgƒ‰,Sparkit,60,75,70,‚Ú‚é‚Æ‚ç
+8,,ƒGƒeƒbƒp,Tanzee,80,70,70,‚¦‚Ä‚Á‚Ï
+9,,ƒqƒmƒRƒWƒJ,Rooby,75,70,75,‚Ð‚Ì‚±‚¶‚©
+10,,ƒyƒ“ƒ^ƒ},Pengullet,70,75,70,‚Ø‚ñ‚½‚Ü
+11,,ƒLƒƒƒvƒyƒ“,Penking,95,95,95,‚«‚á‚Õ‚Ø‚ñ
+12,,ƒpƒ`ƒOƒŠ,Jolthog,70,75,70,‚Ï‚¿‚®‚è
+12,B,ƒRƒ`ƒOƒŠ,Jolthog Cryst,70,75,80,‚±‚¿‚®‚è
+13,,ƒiƒGƒ‚ƒ`,Gumoss,70,70,70,‚È‚¦‚à‚¿
+13,B,ƒiƒGƒ‚ƒ`(“ÁŽê),Gumoss (Special),70,70,70,‚È‚¦‚à‚¿i‚Æ‚­‚µ‚ãj
+14,,ƒ^ƒ}ƒ‚,Vixy,70,70,70,‚½‚Ü‚à
+15,,ƒzƒEƒƒbƒN,Hoocrates,70,70,80,‚Ù‚¤‚ë‚Á‚­
+16,,ƒ`ƒ‡ƒƒ]ƒE,Teafant,70,60,70,‚¿‚å‚ë‚¼‚¤
+17,,ƒ“ƒ_ƒRƒAƒ‰,Depresso,70,70,70,‚ñ‚¾‚±‚ ‚ç
+18,,ƒ~ƒ‹ƒtƒB[,Cremis,70,70,75,‚Ý‚é‚Ó‚¡[
+19,,ƒlƒ€ƒ‰ƒ€,Daedream,70,75,60,‚Ë‚Þ‚ç‚Þ
+20,,ƒCƒmƒ{ƒE,Rushoar,80,70,70,‚¢‚Ì‚Ú‚¤
+21,,ƒ‹ƒiƒeƒB,Nox,75,85,70,‚é‚È‚Ä‚¡
+22,,ƒ‚ƒOƒ‹ƒ“,Fuddler,65,80,50,‚à‚®‚é‚ñ
+23,,ƒ„ƒ~ƒCƒJ,Killamari,60,60,70,‚â‚Ý‚¢‚©
+24,,ƒjƒƒƒIƒeƒg,Mau,70,60,70,‚É‚á‚¨‚Ä‚Æ
+24,B,ƒ`ƒ‹ƒeƒg,Mau Cryst,70,65,70,‚¿‚é‚Ä‚Æ
+25,,ƒ‹ƒ~ƒJƒCƒg,Celaray,80,70,80,‚é‚Ý‚©‚¢‚Æ
+26,,ƒKƒEƒ‹ƒt,Direhowl,80,90,75,‚ª‚¤‚é‚Ó
+27,,ƒNƒ‹ƒbƒgƒŠ,Tocotoco,60,75,70,‚­‚é‚Á‚Æ‚è
+28,,ƒ|ƒvƒŠ[ƒi,Flopie,75,65,70,‚Û‚Õ‚è[‚È
+29,,ƒ~ƒ‹ƒJƒ‹ƒr,Mozzarina,90,50,80,‚Ý‚é‚©‚é‚Ñ
+30,,ƒCƒoƒ‰ƒqƒ,Bristla,80,80,80,‚¢‚Î‚ç‚Ð‚ß
+31,,ƒVƒƒ[ƒLƒbƒh,Gobfin,90,90,75,‚µ‚á[‚«‚Á‚Ç
+31,B,ƒVƒƒ[ƒ}ƒ“ƒ_[,Gobfin Ignis,90,90,75,‚µ‚á[‚Ü‚ñ‚¾[
+32,,ƒVƒƒiƒ,Hangyu,80,70,70,‚µ‚ß‚È‚í
+32,B,ƒIƒoƒPƒiƒ,Hangyu Cryst,80,80,70,‚¨‚Î‚¯‚È‚í
+33,,ƒTƒTƒ][,Mossanda,100,90,90,‚³‚³‚¼[
+33,B,ƒ‰ƒCƒ][,Mossanda Lux,100,100,100,‚ç‚¢‚¼[
+34,,ƒƒŠƒ|ƒbƒv,Woolipop,70,70,90,‚ß‚è‚Û‚Á‚Õ
+35,,ƒxƒŠƒS[ƒg,Caprity,100,70,90,‚×‚è‚²[‚Æ
+36,,ƒƒ‹ƒpƒJ,Melpaca,90,75,90,‚ß‚é‚Ï‚©
+37,,ƒcƒmƒKƒ~,Eikthyrdeer,95,80,80,‚Â‚Ì‚ª‚Ý
+37,B,ƒ„ƒ}ƒKƒ~,Eikthyrdeer Terra,95,80,80,‚â‚Ü‚ª‚Ý
+38,,ƒz[ƒNƒEƒBƒ“,Nitewing,100,95,80,‚Ù[‚­‚¤‚¡‚ñ
+39,,ƒqƒƒEƒT,Ribunny,75,65,70,‚Ð‚ß‚¤‚³
+40,,ƒwƒ‹ƒS[ƒg,Incineram,95,100,85,‚Ö‚é‚²[‚Æ
+40,B,ƒAƒrƒXƒS[ƒg,Incineram Noct,95,105,85,‚ ‚Ñ‚·‚²[‚Æ
+41,,ƒpƒsƒeƒt,Cinnamoth,70,80,80,‚Ï‚Ò‚Ä‚Ó
+42,,ƒuƒ‹ƒtƒFƒ‹ƒm,Arsox,85,95,95,‚Ô‚é‚Ó‚¥‚é‚Ì
+43,,ƒgƒhƒhƒhƒ“,Dumud,100,70,95,‚Æ‚Ç‚Ç‚Ç‚ñ
+44,,ƒ}ƒXƒNƒƒE,Cawgnito,75,95,80,‚Ü‚·‚­‚ë‚¤
+45,,ƒ_ƒŠƒU[ƒh,Leezpunk,80,80,50,‚¾‚è‚´[‚Ç
+45,B,ƒ`ƒŠƒU[ƒh,Leezpunk Ignis,80,80,50,‚¿‚è‚´[‚Ç
+46,,ƒcƒLƒJƒQ,Loupmoon,80,100,80,‚Â‚«‚©‚°
+47,,ƒGƒAƒ€ƒ‹ƒO,Galeclaw,75,85,60,‚¦‚ ‚Þ‚é‚®
+48,,ƒtƒFƒU[ƒ,Robinquill,90,105,80,‚Ó‚¥‚´[‚ë
+48,B,ƒTƒ“ƒhƒ,Robinquill Terra,90,105,80,‚³‚ñ‚Ç‚ë
+49,,ƒSƒŠƒŒƒCƒW,Gorirat,90,95,90,‚²‚è‚ê‚¢‚¶
+50,,ƒr[ƒiƒCƒg,Beegarde,80,90,90,‚Ñ[‚È‚¢‚Æ
+51,,ƒNƒCƒ“ƒr[ƒi,Elizabee,90,105,100,‚­‚¢‚ñ‚Ñ[‚È
+52,,ƒjƒƒƒ“ƒMƒ}ƒŠ,Grintale,110,80,80,‚É‚á‚ñ‚¬‚Ü‚è
+53,,ƒRƒ‚ƒbƒv,Swee,60,60,60,‚±‚à‚Á‚Õ
+54,,ƒhƒ“ƒ‚ƒbƒv,Sweepa,100,90,90,‚Ç‚ñ‚à‚Á‚Õ
+55,,ƒIƒRƒ`ƒ‡,Chillet,90,80,80,‚¨‚±‚¿‚å
+56,,ƒ‰ƒCƒR[ƒ“,Univolt,80,105,105,‚ç‚¢‚±[‚ñ
+57,,ƒtƒuƒLƒcƒl,Foxcicle,90,95,105,‚Ó‚Ô‚«‚Â‚Ë
+58,,ƒTƒ‰ƒuƒŒƒCƒY,Pyrin,100,95,90,‚³‚ç‚Ô‚ê‚¢‚¸
+58,B,ƒTƒ‰ƒuƒ‰ƒbƒN,Pyrin Noct,100,95,90,‚³‚ç‚Ô‚ç‚Á‚­
+59,,ƒcƒ‰ƒ‰ƒWƒJ,Reindrix,100,85,110,‚Â‚ç‚ç‚¶‚©
+60,,ƒCƒkƒYƒ},Rayhound,90,100,80,‚¢‚Ê‚¸‚Ü
+61,,ƒVƒ‰ƒkƒC,Kitsun,100,115,100,‚µ‚ç‚Ê‚¢
+62,,ƒJƒ~ƒiƒ‰ƒV,Dazzi,70,80,70,‚©‚Ý‚È‚ç‚µ
+63,,ƒ~ƒXƒeƒŠƒA,Lunaris,90,100,90,‚Ý‚·‚Ä‚è‚ 
+64,,ƒAƒƒAƒŠƒ…[,Dinossom,110,85,90,‚ ‚ë‚ ‚è‚ã[
+64,B,ƒrƒŠƒrƒŠƒ…[,Dinossom Lux,110,90,90,‚Ñ‚è‚Ñ‚è‚ã[
+65,,ƒV[ƒyƒ“ƒg,Surfent,90,90,80,‚µ[‚Ø‚ñ‚Æ
+65,B,ƒXƒiƒyƒ“ƒg,Surfent Terra,90,90,100,‚·‚È‚Ø‚ñ‚Æ
+66,,ƒ\ƒ‹ƒŒƒCƒX,Maraith,75,105,80,‚»‚é‚ê‚¢‚·
+67,,ƒhƒŠƒ^ƒX,Digtoise,80,95,120,‚Ç‚è‚½‚·
+68,,ƒjƒƒƒ“ƒoƒbƒg,Tombat,95,95,80,‚É‚á‚ñ‚Î‚Á‚Æ
+69,,ƒ‰ƒuƒ}ƒ“ƒ_[,Lovander,120,70,70,‚ç‚Ô‚Ü‚ñ‚¾[
+70,,ƒ‰ƒ”ƒB,Flambelle,60,70,80,‚çƒ”‚¡
+71,,ƒJƒoƒlƒhƒŠ,Vanwyrm,90,115,90,‚©‚Î‚Ë‚Ç‚è
+71,B,ƒVƒƒJƒoƒl,Vanwyrm Cryst,90,120,95,‚µ‚ë‚©‚Î‚Ë
+72,,ƒcƒWƒMƒŠ,Bushi,80,125,80,‚Â‚¶‚¬‚è
+73,,ƒ‰ƒCƒo[ƒh,Beakon,105,115,80,‚ç‚¢‚Î[‚Ç
+74,,ƒCƒOƒjƒNƒX,Ragnahawk,95,105,120,‚¢‚®‚É‚­‚·
+75,,ƒNƒŒƒ[ƒI,Katress,90,105,90,‚­‚ê‚ß[‚¨
+76,,ƒtƒHƒŒ[ƒi,Wixen,90,110,80,‚Ó‚§‚ê[‚È
+77,,ƒ‰ƒxƒƒbƒg,Verdash,90,115,90,‚ç‚×‚ë‚Á‚Æ
+78,,ƒ”ƒBƒIƒŒƒbƒ^,Vaelet,100,100,120,ƒ”‚¡‚¨‚ê‚Á‚½
+79,,ƒVƒ‹ƒL[ƒk,Sibelyx,110,90,100,‚µ‚é‚«[‚Ê
+80,,ƒVƒ‹ƒtƒBƒA,Elphidran,110,80,90,‚µ‚é‚Ó‚¡‚ 
+80,B,ƒVƒ‹ƒeƒBƒA,Elphidran Aqua,115,80,95,‚µ‚é‚Ä‚¡‚ 
+81,,ƒPƒ‹ƒsƒX,Kelpsea,70,70,70,‚¯‚é‚Ò‚·
+81,B,ƒ}ƒOƒsƒX,Kelpsea Ignis,70,70,70,‚Ü‚®‚Ò‚·
+82,,ƒAƒYƒŒ[ƒ“,Azurobe,110,100,100,‚ ‚¸‚ê[‚ñ
+83,,ƒcƒ“ƒhƒ‰[,Cryolinx,100,100,110,‚Â‚ñ‚Ç‚ç[
+84,,ƒSƒNƒGƒ“ƒI,Blazehowl,105,110,80,‚²‚­‚¦‚ñ‚¨
+84,B,ƒVƒ“ƒGƒ“ƒI,Blazehowl Noct,105,115,80,‚µ‚ñ‚¦‚ñ‚¨
+85,,ƒyƒRƒhƒ“,Relaxaurus,110,100,70,‚Ø‚±‚Ç‚ñ
+85,B,ƒpƒŠƒsƒhƒ“,Relaxaurus Lux,110,110,75,‚Ï‚è‚Ò‚Ç‚ñ
+86,,ƒ‰ƒuƒ‰ƒhƒ“,Broncherry,120,90,100,‚ç‚Ô‚ç‚Ç‚ñ
+86,B,ƒXƒvƒ‰ƒhƒ“,Broncherry Aqua,120,95,100,‚·‚Õ‚ç‚Ç‚ñ
+87,,ƒtƒ‰ƒŠ[ƒi,Petallia,100,95,100,‚Ó‚ç‚è[‚È
+88,,ƒ{ƒ‹ƒJƒmƒ“,Reptyro,110,105,120,‚Ú‚é‚©‚Ì‚ñ
+88,B,ƒ`ƒ‹ƒJƒmƒ“,Ice Reptyro,110,105,130,‚¿‚é‚©‚Ì‚ñ
+89,,ƒAƒ‹ƒpƒI[,Kingpaca,120,85,90,‚ ‚é‚Ï‚¨[
+89,B,ƒAƒIƒpƒI[,Ice Kingpaca,120,85,90,‚ ‚¨‚Ï[
+90,,ƒOƒ‰ƒ“ƒ‚ƒX,Mammorest,150,85,90,‚®‚ç‚ñ‚à‚·
+90,B,ƒuƒŠƒUƒ‚ƒX,Mammorest Cryst,150,85,90,‚Ô‚è‚´‚à‚·
+91,,ƒqƒGƒeƒB,Wumpo,140,80,100,‚Ð‚¦‚Ä‚¡
+91,B,ƒgƒƒsƒeƒB,Wumpo Botan,140,80,110,‚Æ‚ë‚Ò‚Ä‚¡
+92,,ƒOƒ‰ƒNƒŒƒX,Warsect,120,100,120,‚®‚ç‚­‚ê‚·
+93,,ƒ€ƒ‰ƒNƒ‚,Fenglope,110,110,90,‚Þ‚ç‚­‚à
+94,,ƒ„ƒ~ƒgƒoƒŠ,Felbat,100,105,110,‚â‚Ý‚Æ‚Î‚è
+95,,ƒtƒFƒXƒL[,Quivern,105,100,100,‚Ó‚¥‚·‚«[
+96,,ƒ{ƒ‹ƒJƒCƒU[,Blazamut,100,125,120,‚Ú‚é‚©‚¢‚´[
+97,,ƒwƒ‹ƒKƒ‹ƒ_,Helzephyr,100,125,100,‚Ö‚é‚ª‚é‚¾
+98,,ƒWƒIƒ‰[ƒ”ƒ@,Astegon,100,125,125,‚¶‚¨‚ç[ƒ”‚Ÿ
+99,,ƒfƒXƒeƒBƒ“ƒO,Menasting,100,100,130,‚Å‚·‚Ä‚¡‚ñ‚®
+100,,ƒAƒkƒrƒX,Anubis,120,130,100,‚ ‚Ê‚Ñ‚·
+101,,ƒŒƒ”ƒBƒhƒ‰,Jormuntide,130,120,100,‚êƒ”‚¡‚Ç‚ç
+101,B,ƒAƒOƒjƒhƒ‰,Jormuntide Ignis,130,130,100,‚ ‚®‚É‚Ç‚ç
+102,,ƒXƒUƒN,Suzaku,120,105,105,‚·‚´‚­
+102,B,ƒVƒ”ƒ@,Suzaku Aqua,125,105,105,‚µƒ”‚Ÿ
+103,,ƒGƒŒƒpƒ“ƒ_,Grizzbolt,105,100,100,‚¦‚ê‚Ï‚ñ‚¾
+104,,ƒŠƒŠƒNƒCƒ“,Lyleen,110,110,105,‚è‚è‚­‚¢‚ñ
+104,B,ƒ‹ƒiƒNƒCƒ“,Lyleen Noct,110,110,115,‚é‚È‚­‚¢‚ñ
+105,,ƒzƒ‹ƒX,Faleris,100,105,110,‚Ù‚é‚·
+106,,ƒ{ƒ‹ƒ[ƒNƒX,Orserk,100,130,100,‚Ú‚é‚º‚­‚·
+107,,ƒ[ƒmƒOƒŠƒt,Shadowbeak,120,120,140,‚º‚Ì‚®‚è‚Ó
+108,,ƒZƒCƒ“ƒg[ƒ‹,Paladius,130,120,145,‚¹‚¢‚ñ‚Æ[‚é
+109,,ƒxƒCƒ“ƒg[ƒ‹,Necromus,130,145,120,‚×‚¢‚ñ‚Æ[‚é
+110,,ƒOƒŒƒCƒVƒƒƒ‹,Frostallion,140,140,120,‚®‚ê‚¢‚µ‚á‚é
+110,B,ƒOƒŒƒCƒVƒƒƒhƒE,Frostallion Noct,140,140,135,‚®‚ê‚¢‚µ‚á‚Ç‚¤
+111,,ƒWƒFƒbƒhƒ‰ƒ“,Jetragon,110,140,110,‚¶‚¥‚Á‚Ç‚ç‚ñ
+111,X,ƒWƒFƒbƒhƒ‰ƒ“i“ÁŽêj,Jetragon(Special),330,140,110,‚¶‚¥‚Á‚Ç‚ç‚ñi‚Æ‚­‚µ‚ãj
