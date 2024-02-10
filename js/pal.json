@@ -1933,9 +1933,65 @@
   },
   {
     "name": {
-      "en": "Jetragon(Special)",
-      "hira": "じぇっどらん（とくしゅ）",
-      "jp": "ジェッドラン（特殊）"
+      "en": "Paladius(boss)",
+      "hira": "せいんとーる（ぼす）",
+      "jp": "セイントール（ボス）"
+    },
+    "no": 108,
+    "stats": {
+      "attack": 120,
+      "defense": 145,
+      "hp": 260
+    },
+    "sub": "X"
+  },
+  {
+    "name": {
+      "en": "Necromus(boss)",
+      "hira": "べいんとーる（ぼす）",
+      "jp": "ベイントール（ボス）"
+    },
+    "no": 109,
+    "stats": {
+      "attack": 145,
+      "defense": 120,
+      "hp": 260
+    },
+    "sub": "X"
+  },
+  {
+    "name": {
+      "en": "Frostallion(boss)",
+      "hira": "ぐれいしゃる（ぼす）",
+      "jp": "グレイシャル（ボス）"
+    },
+    "no": 110,
+    "stats": {
+      "attack": 140,
+      "defense": 120,
+      "hp": 420
+    },
+    "sub": "X"
+  },
+  {
+    "name": {
+      "en": "Frostallion Noct(boss)",
+      "hira": "ぐれいしゃどう（ぼす）",
+      "jp": "グレイシャドウ（ボス）"
+    },
+    "no": 110,
+    "stats": {
+      "attack": 140,
+      "defense": 135,
+      "hp": 420
+    },
+    "sub": "BX"
+  },
+  {
+    "name": {
+      "en": "Jetragon(boss)",
+      "hira": "じぇっどらん（ぼす）",
+      "jp": "ジェッドラン（ボス）"
     },
     "no": 111,
     "stats": {

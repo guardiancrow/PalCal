@@ -136,17 +136,17 @@ $(document).ready(function(){
         potential_iv.hp.min = potential.hp.min / 0.3 * 100;
         potential_iv.hp.max = potential.hp.max / 0.3 * 100;
         potential_iv.hp.mid = potential.hp.mid / 0.3 * 100;
-        console.log('potential_iv.hp.min:' + potential_iv.hp.min + ' potential_iv.hp.max:' + potential_iv.hp.max);
+        //console.log('potential_iv.hp.min:' + potential_iv.hp.min + ' potential_iv.hp.max:' + potential_iv.hp.max);
 
         potential_iv.atk.min = potential.atk.min / 0.3 * 100;
         potential_iv.atk.max = potential.atk.max / 0.3 * 100;
         potential_iv.atk.mid = potential.atk.mid / 0.3 * 100;
-        console.log('potential_iv.atk.min:' + potential_iv.atk.min + ' potential_iv.atk.max:' + potential_iv.atk.max);
+        //console.log('potential_iv.atk.min:' + potential_iv.atk.min + ' potential_iv.atk.max:' + potential_iv.atk.max);
 
         potential_iv.def.min = potential.def.min / 0.3 * 100;
         potential_iv.def.max = potential.def.max / 0.3 * 100;
         potential_iv.def.mid = potential.def.mid / 0.3 * 100;
-        console.log('potential_iv.def.min:' + potential_iv.def.min + ' potential_iv.def.max:' + potential_iv.def.max);
+        //console.log('potential_iv.def.min:' + potential_iv.def.min + ' potential_iv.def.max:' + potential_iv.def.max);
 
         var header = $('<h2>このパルの個体値</h2>');
         var responsive = $('<div>');
