@@ -54,6 +54,15 @@ $(document).ready(function(){
             if (queries["con"] && queries["con"] >= 0 && queries["con"] <= 4) {
                 $('input[name="condenser"]').val(queries["con"]);
             }
+            if (queries["hp_soul"] && queries["hp_soul"] >= 0 && queries["hp_soul"] <= 30) {
+                $('input[name="hp_soul"]').val(queries["hp_soul"]);
+            }
+            if (queries["atk_soul"] && queries["atk_soul"] >= 0 && queries["atk_soul"] <= 30) {
+                $('input[name="atk_soul"]').val(queries["atk_soul"]);
+            }
+            if (queries["def_soul"] && queries["def_soul"] >= 0 && queries["def_soul"] <= 30) {
+                $('input[name="def_soul"]').val(queries["def_soul"]);
+            }
         }
     }
 
@@ -63,7 +72,10 @@ $(document).ready(function(){
             !$.isNumeric($('input[name="hp"]').val()) ||
             !$.isNumeric($('input[name="atk"]').val()) ||
             !$.isNumeric($('input[name="def"]').val()) ||
-            !$.isNumeric($('input[name="condenser"]').val())
+            !$.isNumeric($('input[name="condenser"]').val() ||
+            !$.isNumeric($('input[name="hp_soul"]').val()) ||
+            !$.isNumeric($('input[name="atk_soul"]').val()) ||
+            !$.isNumeric($('input[name="def_soul"]').val()))
             ) {
             return false;
         }
@@ -93,7 +105,6 @@ $(document).ready(function(){
                 return String.fromCharCode(s.charCodeAt(0)-0xFEE0)
             })
         );
-        /*
         $('input[name="hp_soul"]').val(
             $('input[name="hp_soul"]').val().replace(/[０-９]/g,function(s){
                 return String.fromCharCode(s.charCodeAt(0)-0xFEE0)
@@ -109,7 +120,6 @@ $(document).ready(function(){
                 return String.fromCharCode(s.charCodeAt(0)-0xFEE0)
             })
         );
-        */
         return true;
     }
 
@@ -136,17 +146,14 @@ $(document).ready(function(){
         potential_iv.hp.min = potential.hp.min / 0.3 * 100;
         potential_iv.hp.max = potential.hp.max / 0.3 * 100;
         potential_iv.hp.mid = potential.hp.mid / 0.3 * 100;
-        //console.log('potential_iv.hp.min:' + potential_iv.hp.min + ' potential_iv.hp.max:' + potential_iv.hp.max);
 
         potential_iv.atk.min = potential.atk.min / 0.3 * 100;
         potential_iv.atk.max = potential.atk.max / 0.3 * 100;
         potential_iv.atk.mid = potential.atk.mid / 0.3 * 100;
-        //console.log('potential_iv.atk.min:' + potential_iv.atk.min + ' potential_iv.atk.max:' + potential_iv.atk.max);
 
         potential_iv.def.min = potential.def.min / 0.3 * 100;
         potential_iv.def.max = potential.def.max / 0.3 * 100;
         potential_iv.def.mid = potential.def.mid / 0.3 * 100;
-        //console.log('potential_iv.def.min:' + potential_iv.def.min + ' potential_iv.def.max:' + potential_iv.def.max);
 
         var header = $('<h2>このパルの個体値</h2>');
         var responsive = $('<div>');
@@ -273,10 +280,58 @@ $(document).ready(function(){
         totaltable.append(text);
     }
 
+    var renderCondenserCalcTable = function(condcalc) {
+        var totaltable = $("#condenser_calculation");
+		totaltable.empty();
+
+        var responsive = $('<div>');
+        responsive.attr('class', 'table-responsive table-responsive-md');
+
+		var table = $('<table class="table table-hover table-bordered"></table>');
+		var thead = $('<thead><tr><th>回数</th><th><div">HP</div></th><th><div>攻撃</div></th><th><div>防御</div></th></tr></thead>');
+		var tbody = $("<tbody>");
+        var row;
+        var td;
+        for(i=0;i<=4;i++){
+            row = $('<tr>');
+            td = $("<td>"+ i +"</td>");
+            row.append(td);
+            td = $("<td>" + condcalc[i].hp.mid + "</td>");
+            row.append(td);
+            td = $("<td>" + condcalc[i].atk.mid + "</td>");
+            row.append(td);
+            td = $("<td>" + condcalc[i].def.mid + "</td>");
+            row.append(td);
+            row.append(td);
+            tbody.append(row);
+        }
+
+        var header;
+        header = $("<h3>このパルの濃縮試算</h3>");
+
+        table.append(thead);
+		table.append(tbody);
+        responsive.append(table);
+        totaltable.append(header);
+        totaltable.append(responsive);
+    }
+
     var renderShareURI = function(input) {
         var uristring = location.origin + location.pathname + '?name=' + input.name + '&lv=' +
-        input.level + '&hp=' + input.hp + '&atk=' + input.attack + '&def=' + input.defense +
-        '&con=' + input.condenser;
+        input.level + '&hp=' + input.hp + '&atk=' + input.attack + '&def=' + input.defense;
+
+        if (input.condenser != 0) {
+            uristring += ('&con=' + input.condenser);
+        }
+        if (input.hp_soul != 0) {
+            uristring += ('&hp_soul=' + input.hp_soul);
+        }
+        if (input.attack_soul != 0) {
+            uristring += ('&atk_soul=' + input.attack_soul);
+        }
+        if (input.defense_soul != 0) {
+            uristring += ('&def_soul=' + input.defense_soul);
+        }
     
         var thisurl = $('<p class="small fst-normal">計算結果共有用リンク：<a href="' + encodeURI(uristring) + '">' + uristring + '</a></p>');
 
@@ -328,7 +383,7 @@ $(document).ready(function(){
         var name = input.name;
         var stats = getStats(name);
 
-        var soul = {hp:0,attack:0,defense:0};
+        var soul = {hp:input.hp_soul * 0.01, attack:input.attack_soul * 0.01, defense:input.defense_soul * 0.01};
         var condenser = {hp:input.condenser * 0.05, attack:input.condenser * 0.05, defense:input.condenser * 0.05};
         var multi = {hp:1,attack:1,defense:1};
 
@@ -359,9 +414,31 @@ $(document).ready(function(){
         potential.def.max = math.median(0, Math.floor((input.defense + 1) / (1 + soul.defense) / (1 + condenser.defense) / multi.defense - 50 + 1) / stats.defense / 0.075 / input.level - 1, 0.3);
         potential.def.mid = (potential.def.min + potential.def.max) / 2;
 
+        var condcalc = [];
+
+        for (i = 0; i <= 4; i++) {
+            var trial = {hp:{min:0,mid:0,max:0}, atk:{min:0,mid:0,max:0}, def:{min:0,mid:0,max:0}};
+            var cond = {hp: i * 0.05, attack: i * 0.05, defense: i * 0.05};
+
+            trial.hp.min = Math.floor(Math.floor(500 + 5 * input.level + stats.hp * 0.5 * input.level * (1 + 0)) * 1 * (1 + soul.hp) * (1 + cond.hp));
+            trial.hp.mid = Math.floor(Math.floor(500 + 5 * input.level + stats.hp * 0.5 * input.level * (1 + potential.hp.mid)) * 1 * (1 + soul.hp) * (1 + cond.hp));
+            trial.hp.max = Math.floor(Math.floor(500 + 5 * input.level + stats.hp * 0.5 * input.level * (1 + 0.3)) * 1 * (1 + soul.hp) * (1 + cond.hp));
+    
+            trial.atk.min = Math.floor(Math.floor(100 + stats.attack * 0.075 * input.level * (1 + 0)) * 1 * (1 + soul.attack) * (1 + cond.attack));
+            trial.atk.mid = Math.floor(Math.floor(100 + stats.attack * 0.075 * input.level * (1 + potential.atk.mid)) * 1 * (1 + soul.attack) * (1 + cond.attack));
+            trial.atk.max = Math.floor(Math.floor(100 + stats.attack * 0.075 * input.level * (1 + 0.3)) * 1 * (1 + soul.attack) * (1 + cond.attack));
+    
+            trial.def.min = Math.floor(Math.floor(50 + stats.defense * 0.075 * input.level * (1 + 0)) * 1 * (1 + soul.defense) * (1 + cond.defense));
+            trial.def.mid = Math.floor(Math.floor(50 + stats.defense * 0.075 * input.level * (1 + potential.def.mid)) * 1 * (1 + soul.defense) * (1 + cond.defense));
+            trial.def.max = Math.floor(Math.floor(50 + stats.defense * 0.075 * input.level * (1 + 0.3)) * 1 * (1 + soul.defense) * (1 + cond.defense));
+
+            condcalc.push(trial);
+        }
+
         renderPotentialTable(potential);
         renderTotalTable(input, total);
         renderShareURI(input);
+        renderCondenserCalcTable(condcalc);
     })
 
     $('input[name="lv"]').change(function() {
@@ -395,6 +472,30 @@ $(document).ready(function(){
             $('input[name="condenser"]').val(0);
         }else if ($(this).val() > 4){
             $('input[name="condenser"]').val(4);
+        }
+    })
+
+    $('input[name="hp_soul"]').change(function() {
+        if($(this).val() < 0){
+            $('input[name="hp_soul"]').val(0);
+        }else if ($(this).val() > 30){
+            $('input[name="hp_soul"]').val(30);
+        }
+    })
+
+    $('input[name="atk_soul"]').change(function() {
+        if($(this).val() < 0){
+            $('input[name="atk_soul"]').val(0);
+        }else if ($(this).val() > 30){
+            $('input[name="atk_soul"]').val(30);
+        }
+    })
+
+    $('input[name="def_soul"]').change(function() {
+        if($(this).val() < 0){
+            $('input[name="def_soul"]').val(0);
+        }else if ($(this).val() > 30){
+            $('input[name="def_soul"]').val(30);
         }
     })
 
